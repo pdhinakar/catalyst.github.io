@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Views on catalyst</title>
+    <link>https://www.catalyst.zoho.com/rest-api/data-store/data-views/</link>
+    <description>Recent content in Data Views on catalyst</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 Sep 2020 22:11:57 +0000</lastBuildDate><atom:link href="https://www.catalyst.zoho.com/rest-api/data-store/data-views/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tutorial Videos of Data Store</title>
+      <link>https://www.catalyst.zoho.com/rest-api/data-store/data-views/tutorial-video/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/rest-api/data-store/data-views/tutorial-video/</guid>
+      <description>Tutorial Videos of Data Store</description>
+    </item>
+    
+    <item>
+      <title>Read Data Store FAQ</title>
+      <link>https://www.catalyst.zoho.com/rest-api/data-store/data-views/read-data/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/rest-api/data-store/data-views/read-data/</guid>
+      <description>Read Data Store FAQ</description>
+    </item>
+    
+  </channel>
+</rss>

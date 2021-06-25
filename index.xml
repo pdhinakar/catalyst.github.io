@@ -1,0 +1,2140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>catalyst</title>
+    <link>https://www.catalyst.zoho.com/</link>
+    <description>Recent content on catalyst</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 Sep 2020 22:11:57 +0000</lastBuildDate><atom:link href="https://www.catalyst.zoho.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction</title>
+      <link>https://www.catalyst.zoho.com/tutorial-apps/microservice/introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/tutorial-apps/microservice/introduction/</guid>
+      <description>Microservice Catalyst Authentication feature enables you to add end-users to your Catalyst serverless applications, configure their user accounts and roles, and manage user sign-in and authentication of your application directly from the Catalyst console.
+Note: Refer to the links provided in this guide for detailed help on various topics. Note: Refer to the links provided in this guide for detailed help on various topics.  -- Introduction $ hugo new site .</description>
+    </item>
+    
+    <item>
+      <title>Introduction</title>
+      <link>https://www.catalyst.zoho.com/tutorial-apps/simple-web-application/introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/tutorial-apps/simple-web-application/introduction/</guid>
+      <description>Simple Web Application Catalyst Authentication feature enables you to add end-users to your Catalyst serverless applications, configure their user accounts and roles, and manage user sign-in and authentication of your application directly from the Catalyst console.
+Note: Refer to the links provided in this guide for detailed help on various topics. Note: Refer to the links provided in this guide for detailed help on various topics.  -- Introduction $ hugo new site .</description>
+    </item>
+    
+    <item>
+      <title>Create a New Table</title>
+      <link>https://www.catalyst.zoho.com/android/data-store/table/create-new-table/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/android/data-store/table/create-new-table/</guid>
+      <description>Create a New Table</description>
+    </item>
+    
+    <item>
+      <title>Create a New Table</title>
+      <link>https://www.catalyst.zoho.com/cli/data-store/table/create-new-table/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/cli/data-store/table/create-new-table/</guid>
+      <description>Create a New Table</description>
+    </item>
+    
+    <item>
+      <title>Create a New Table</title>
+      <link>https://www.catalyst.zoho.com/help/data-store/table/create-new-table/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/help/data-store/table/create-new-table/</guid>
+      <description>Create a New Table</description>
+    </item>
+    
+    <item>
+      <title>Create a New Table</title>
+      <link>https://www.catalyst.zoho.com/ios/data-store/table/create-new-table/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/ios/data-store/table/create-new-table/</guid>
+      <description>Create a New Table</description>
+    </item>
+    
+    <item>
+      <title>Create a New Table</title>
+      <link>https://www.catalyst.zoho.com/java/data-store/table/create-new-table/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/java/data-store/table/create-new-table/</guid>
+      <description>Create a New Table</description>
+    </item>
+    
+    <item>
+      <title>Create a New Table</title>
+      <link>https://www.catalyst.zoho.com/javascript/data-store/table/create-new-table/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/javascript/data-store/table/create-new-table/</guid>
+      <description>Create a New Table</description>
+    </item>
+    
+    <item>
+      <title>Create a New Table</title>
+      <link>https://www.catalyst.zoho.com/nodejs/data-store/table/create-new-table/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/nodejs/data-store/table/create-new-table/</guid>
+      <description>Create a New Table</description>
+    </item>
+    
+    <item>
+      <title>Create a New Table</title>
+      <link>https://www.catalyst.zoho.com/rest-api/data-store/table/create-new-table/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/rest-api/data-store/table/create-new-table/</guid>
+      <description>Create a New Table</description>
+    </item>
+    
+    <item>
+      <title>Installing Catalyst CLI</title>
+      <link>https://www.catalyst.zoho.com/docs/setting-up-a-catalyst-project/installing-catalyst-cli/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/docs/setting-up-a-catalyst-project/installing-catalyst-cli/</guid>
+      <description>Installing Catalyst CLI</description>
+    </item>
+    
+    <item>
+      <title>Introduction</title>
+      <link>https://www.catalyst.zoho.com/android/data-store/introduction/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/android/data-store/introduction/</guid>
+      <description>Introduction about a Table</description>
+    </item>
+    
+    <item>
+      <title>Introduction</title>
+      <link>https://www.catalyst.zoho.com/cli/data-store/introduction/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/cli/data-store/introduction/</guid>
+      <description>Introduction about a Table</description>
+    </item>
+    
+    <item>
+      <title>Introduction</title>
+      <link>https://www.catalyst.zoho.com/help/data-store/introduction/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/help/data-store/introduction/</guid>
+      <description>Introduction about a Table</description>
+    </item>
+    
+    <item>
+      <title>Introduction</title>
+      <link>https://www.catalyst.zoho.com/ios/data-store/introduction/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/ios/data-store/introduction/</guid>
+      <description>Introduction about a Table</description>
+    </item>
+    
+    <item>
+      <title>Introduction</title>
+      <link>https://www.catalyst.zoho.com/java/data-store/introduction/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/java/data-store/introduction/</guid>
+      <description>Introduction about a Table</description>
+    </item>
+    
+    <item>
+      <title>Introduction</title>
+      <link>https://www.catalyst.zoho.com/javascript/data-store/introduction/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/javascript/data-store/introduction/</guid>
+      <description>Introduction about a Table</description>
+    </item>
+    
+    <item>
+      <title>Introduction</title>
+      <link>https://www.catalyst.zoho.com/nodejs/data-store/introduction/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/nodejs/data-store/introduction/</guid>
+      <description>Introduction about a Table</description>
+    </item>
+    
+    <item>
+      <title>Introduction</title>
+      <link>https://www.catalyst.zoho.com/rest-api/data-store/introduction/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/rest-api/data-store/introduction/</guid>
+      <description>Introduction about a Table</description>
+    </item>
+    
+    <item>
+      <title>Quick Start Guide</title>
+      <link>https://www.catalyst.zoho.com/docs/quick-start-guide/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/docs/quick-start-guide/</guid>
+      <description>This quick start guide will familiarize you with setting up the Catalyst work environment in under ten minutes. With this guide, you can quickly learn the basic steps involved in developing a Catalyst application.
+You can access detailed step-by-step tutorials on building applications and microservices involving different Catalyst components from the Tutorials section.
+Prerequisites:  Node.js and NPM for your platform to install Catalyst CLI and to develop Node.js functions Java SE Development Kit to develop Java functions Any IDE tool for coding the client or the functions.</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/android/add-on-service/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/android/add-on-service/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/android/authentication/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/android/authentication/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/android/cache/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/android/cache/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/android/circuits/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/android/circuits/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/android/cron/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/android/cron/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/android/data-store/schema-view/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/android/data-store/schema-view/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/android/data-store/scope-and-permission/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/android/data-store/scope-and-permission/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/android/domain-mapping/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/android/domain-mapping/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/android/event-listener/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/android/event-listener/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/android/file-store/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/android/file-store/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/android/function/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/android/function/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/android/github-integrations/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/android/github-integrations/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/android/mail/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/android/mail/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/android/metrics/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/android/metrics/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/android/push-notification/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/android/push-notification/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/android/search/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/android/search/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/android/security-rules/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/android/security-rules/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/android/web-client-hosting/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/android/web-client-hosting/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/android/zia-service/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/android/zia-service/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/android/zqcl-console/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/android/zqcl-console/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/cli/add-on-service/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/cli/add-on-service/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/cli/authentication/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/cli/authentication/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/cli/cache/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/cli/cache/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/cli/circuits/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/cli/circuits/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/cli/cron/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/cli/cron/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/cli/data-store/schema-view/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/cli/data-store/schema-view/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/cli/data-store/scope-and-permission/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/cli/data-store/scope-and-permission/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/cli/domain-mapping/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/cli/domain-mapping/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/cli/event-listener/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/cli/event-listener/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/cli/file-store/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/cli/file-store/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/cli/function/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/cli/function/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/cli/github-integrations/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/cli/github-integrations/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/cli/mail/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/cli/mail/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/cli/metrics/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/cli/metrics/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/cli/push-notification/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/cli/push-notification/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/cli/search/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/cli/search/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/cli/security-rules/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/cli/security-rules/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/cli/web-client-hosting/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/cli/web-client-hosting/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/cli/zia-service/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/cli/zia-service/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/cli/zqcl-console/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/cli/zqcl-console/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/help/add-on-service/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/help/add-on-service/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/help/authentication/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/help/authentication/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/help/cache/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/help/cache/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/help/circuits/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/help/circuits/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/help/cron/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/help/cron/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/help/data-store/schema-view/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/help/data-store/schema-view/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/help/data-store/scope-and-permission/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/help/data-store/scope-and-permission/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/help/domain-mapping/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/help/domain-mapping/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/help/event-listener/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/help/event-listener/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/help/file-store/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/help/file-store/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/help/function/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/help/function/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/help/github-integrations/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/help/github-integrations/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/help/mail/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/help/mail/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/help/metrics/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/help/metrics/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/help/push-notification/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/help/push-notification/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/help/search/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/help/search/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/help/security-rules/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/help/security-rules/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/help/web-client-hosting/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/help/web-client-hosting/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/help/zia-service/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/help/zia-service/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/help/zqcl-console/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/help/zqcl-console/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/ios/add-on-service/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/ios/add-on-service/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/ios/authentication/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/ios/authentication/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/ios/cache/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/ios/cache/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/ios/circuits/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/ios/circuits/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/ios/cron/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/ios/cron/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/ios/data-store/schema-view/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/ios/data-store/schema-view/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/ios/data-store/scope-and-permission/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/ios/data-store/scope-and-permission/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/ios/domain-mapping/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/ios/domain-mapping/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/ios/event-listener/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/ios/event-listener/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/ios/file-store/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/ios/file-store/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/ios/function/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/ios/function/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/ios/github-integrations/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/ios/github-integrations/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/ios/mail/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/ios/mail/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/ios/metrics/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/ios/metrics/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/ios/push-notification/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/ios/push-notification/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/ios/search/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/ios/search/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/ios/security-rules/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/ios/security-rules/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/ios/web-client-hosting/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/ios/web-client-hosting/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/ios/zia-service/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/ios/zia-service/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/ios/zqcl-console/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/ios/zqcl-console/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/java/add-on-service/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/java/add-on-service/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/java/authentication/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/java/authentication/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/java/cache/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/java/cache/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/java/circuits/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/java/circuits/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/java/cron/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/java/cron/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/java/data-store/schema-view/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/java/data-store/schema-view/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/java/data-store/scope-and-permission/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/java/data-store/scope-and-permission/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/java/domain-mapping/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/java/domain-mapping/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/java/event-listener/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/java/event-listener/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/java/file-store/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/java/file-store/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/java/function/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/java/function/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/java/github-integrations/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/java/github-integrations/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/java/mail/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/java/mail/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/java/metrics/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/java/metrics/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/java/push-notification/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/java/push-notification/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/java/search/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/java/search/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/java/security-rules/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/java/security-rules/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/java/web-client-hosting/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/java/web-client-hosting/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/java/zia-service/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/java/zia-service/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/java/zqcl-console/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/java/zqcl-console/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/javascript/add-on-service/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/javascript/add-on-service/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/javascript/authentication/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/javascript/authentication/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/javascript/cache/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/javascript/cache/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/javascript/circuits/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/javascript/circuits/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/javascript/cron/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/javascript/cron/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/javascript/data-store/schema-view/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/javascript/data-store/schema-view/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/javascript/data-store/scope-and-permission/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/javascript/data-store/scope-and-permission/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/javascript/domain-mapping/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/javascript/domain-mapping/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/javascript/event-listener/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/javascript/event-listener/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/javascript/file-store/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/javascript/file-store/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/javascript/function/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/javascript/function/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/javascript/github-integrations/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/javascript/github-integrations/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/javascript/mail/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/javascript/mail/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/javascript/metrics/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/javascript/metrics/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/javascript/push-notification/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/javascript/push-notification/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/javascript/search/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/javascript/search/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/javascript/security-rules/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/javascript/security-rules/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/javascript/web-client-hosting/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/javascript/web-client-hosting/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/javascript/zia-service/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/javascript/zia-service/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/javascript/zqcl-console/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/javascript/zqcl-console/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/nodejs/add-on-service/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/nodejs/add-on-service/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/nodejs/authentication/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/nodejs/authentication/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/nodejs/cache/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/nodejs/cache/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/nodejs/circuits/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/nodejs/circuits/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/nodejs/cron/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/nodejs/cron/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/nodejs/data-store/schema-view/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/nodejs/data-store/schema-view/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/nodejs/data-store/scope-and-permission/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/nodejs/data-store/scope-and-permission/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/nodejs/domain-mapping/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/nodejs/domain-mapping/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/nodejs/event-listener/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/nodejs/event-listener/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/nodejs/file-store/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/nodejs/file-store/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/nodejs/function/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/nodejs/function/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/nodejs/github-integrations/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/nodejs/github-integrations/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/nodejs/mail/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/nodejs/mail/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/nodejs/metrics/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/nodejs/metrics/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/nodejs/push-notification/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/nodejs/push-notification/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/nodejs/search/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/nodejs/search/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/nodejs/security-rules/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/nodejs/security-rules/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/nodejs/web-client-hosting/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/nodejs/web-client-hosting/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/nodejs/zia-service/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/nodejs/zia-service/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/nodejs/zqcl-console/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/nodejs/zqcl-console/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/rest-api/add-on-service/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/rest-api/add-on-service/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/rest-api/authentication/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/rest-api/authentication/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/rest-api/cache/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/rest-api/cache/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/rest-api/circuits/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/rest-api/circuits/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/rest-api/cron/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/rest-api/cron/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/rest-api/data-store/schema-view/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/rest-api/data-store/schema-view/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/rest-api/data-store/scope-and-permission/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/rest-api/data-store/scope-and-permission/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/rest-api/domain-mapping/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/rest-api/domain-mapping/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/rest-api/event-listener/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/rest-api/event-listener/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/rest-api/file-store/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/rest-api/file-store/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/rest-api/function/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/rest-api/function/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/rest-api/github-integrations/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/rest-api/github-integrations/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/rest-api/mail/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/rest-api/mail/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/rest-api/metrics/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/rest-api/metrics/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/rest-api/push-notification/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/rest-api/push-notification/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/rest-api/search/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/rest-api/search/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/rest-api/security-rules/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/rest-api/security-rules/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/rest-api/web-client-hosting/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/rest-api/web-client-hosting/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/rest-api/zia-service/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/rest-api/zia-service/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/rest-api/zqcl-console/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/rest-api/zqcl-console/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>Tutorial Videos of Data Store</title>
+      <link>https://www.catalyst.zoho.com/android/data-store/data-views/tutorial-video/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/android/data-store/data-views/tutorial-video/</guid>
+      <description>Tutorial Videos of Data Store</description>
+    </item>
+    
+    <item>
+      <title>Tutorial Videos of Data Store</title>
+      <link>https://www.catalyst.zoho.com/cli/data-store/data-views/tutorial-video/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/cli/data-store/data-views/tutorial-video/</guid>
+      <description>Tutorial Videos of Data Store</description>
+    </item>
+    
+    <item>
+      <title>Tutorial Videos of Data Store</title>
+      <link>https://www.catalyst.zoho.com/help/data-store/data-views/tutorial-video/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/help/data-store/data-views/tutorial-video/</guid>
+      <description>Tutorial Videos of Data Store</description>
+    </item>
+    
+    <item>
+      <title>Tutorial Videos of Data Store</title>
+      <link>https://www.catalyst.zoho.com/ios/data-store/data-views/tutorial-video/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/ios/data-store/data-views/tutorial-video/</guid>
+      <description>Tutorial Videos of Data Store</description>
+    </item>
+    
+    <item>
+      <title>Tutorial Videos of Data Store</title>
+      <link>https://www.catalyst.zoho.com/java/data-store/data-views/tutorial-video/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/java/data-store/data-views/tutorial-video/</guid>
+      <description>Tutorial Videos of Data Store</description>
+    </item>
+    
+    <item>
+      <title>Tutorial Videos of Data Store</title>
+      <link>https://www.catalyst.zoho.com/javascript/data-store/data-views/tutorial-video/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/javascript/data-store/data-views/tutorial-video/</guid>
+      <description>Tutorial Videos of Data Store</description>
+    </item>
+    
+    <item>
+      <title>Tutorial Videos of Data Store</title>
+      <link>https://www.catalyst.zoho.com/nodejs/data-store/data-views/tutorial-video/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/nodejs/data-store/data-views/tutorial-video/</guid>
+      <description>Tutorial Videos of Data Store</description>
+    </item>
+    
+    <item>
+      <title>Tutorial Videos of Data Store</title>
+      <link>https://www.catalyst.zoho.com/rest-api/data-store/data-views/tutorial-video/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/rest-api/data-store/data-views/tutorial-video/</guid>
+      <description>Tutorial Videos of Data Store</description>
+    </item>
+    
+    <item>
+      <title>Authentication</title>
+      <link>https://www.catalyst.zoho.com/faq/authentication/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/faq/authentication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Authentication</title>
+      <link>https://www.catalyst.zoho.com/whats-new/authentication/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/whats-new/authentication/</guid>
+      <description>Catalyst Authentication feature enables you to add end-users to your Catalyst serverless applications, configure their user accounts and roles, and manage user sign-in and authentication of your application directly from the Catalyst console.
+Note: Refer to the links provided in this guide for detailed help on various topics. Note: Refer to the links provided in this guide for detailed help on various topics.  -- Introduction $ hugo new site .</description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>https://www.catalyst.zoho.com/tutorial-apps/microservice/authentication/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/tutorial-apps/microservice/authentication/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>https://www.catalyst.zoho.com/tutorial-apps/simple-web-application/authentication/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/tutorial-apps/simple-web-application/authentication/test/</guid>
+      <description>Test</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Zoho Catalyst</title>
+      <link>https://www.catalyst.zoho.com/docs/introduction-to-zoho-catalyst/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/docs/introduction-to-zoho-catalyst/</guid>
+      <description>Introduction to Zoho Catalyst</description>
+    </item>
+    
+    <item>
+      <title>Read Data Store FAQ</title>
+      <link>https://www.catalyst.zoho.com/android/data-store/data-views/read-data/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/android/data-store/data-views/read-data/</guid>
+      <description>Read Data Store FAQ</description>
+    </item>
+    
+    <item>
+      <title>Read Data Store FAQ</title>
+      <link>https://www.catalyst.zoho.com/cli/data-store/data-views/read-data/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/cli/data-store/data-views/read-data/</guid>
+      <description>Read Data Store FAQ</description>
+    </item>
+    
+    <item>
+      <title>Read Data Store FAQ</title>
+      <link>https://www.catalyst.zoho.com/help/data-store/data-views/read-data/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/help/data-store/data-views/read-data/</guid>
+      <description>Read Data Store FAQ</description>
+    </item>
+    
+    <item>
+      <title>Read Data Store FAQ</title>
+      <link>https://www.catalyst.zoho.com/ios/data-store/data-views/read-data/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/ios/data-store/data-views/read-data/</guid>
+      <description>Read Data Store FAQ</description>
+    </item>
+    
+    <item>
+      <title>Read Data Store FAQ</title>
+      <link>https://www.catalyst.zoho.com/java/data-store/data-views/read-data/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/java/data-store/data-views/read-data/</guid>
+      <description>Read Data Store FAQ</description>
+    </item>
+    
+    <item>
+      <title>Read Data Store FAQ</title>
+      <link>https://www.catalyst.zoho.com/javascript/data-store/data-views/read-data/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/javascript/data-store/data-views/read-data/</guid>
+      <description>Read Data Store FAQ</description>
+    </item>
+    
+    <item>
+      <title>Read Data Store FAQ</title>
+      <link>https://www.catalyst.zoho.com/nodejs/data-store/data-views/read-data/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/nodejs/data-store/data-views/read-data/</guid>
+      <description>Read Data Store FAQ</description>
+    </item>
+    
+    <item>
+      <title>Read Data Store FAQ</title>
+      <link>https://www.catalyst.zoho.com/rest-api/data-store/data-views/read-data/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/rest-api/data-store/data-views/read-data/</guid>
+      <description>Read Data Store FAQ</description>
+    </item>
+    
+    <item>
+      <title>Update a Table Name</title>
+      <link>https://www.catalyst.zoho.com/android/data-store/table/update-table-name/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/android/data-store/table/update-table-name/</guid>
+      <description>Update a Table Name</description>
+    </item>
+    
+    <item>
+      <title>Update a Table Name</title>
+      <link>https://www.catalyst.zoho.com/cli/data-store/table/update-table-name/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/cli/data-store/table/update-table-name/</guid>
+      <description>Update a Table Name</description>
+    </item>
+    
+    <item>
+      <title>Update a Table Name</title>
+      <link>https://www.catalyst.zoho.com/help/data-store/table/update-table-name/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/help/data-store/table/update-table-name/</guid>
+      <description>Update a Table Name</description>
+    </item>
+    
+    <item>
+      <title>Update a Table Name</title>
+      <link>https://www.catalyst.zoho.com/ios/data-store/table/update-table-name/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/ios/data-store/table/update-table-name/</guid>
+      <description>Update a Table Name</description>
+    </item>
+    
+    <item>
+      <title>Update a Table Name</title>
+      <link>https://www.catalyst.zoho.com/java/data-store/table/update-table-name/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/java/data-store/table/update-table-name/</guid>
+      <description>Update a Table Name</description>
+    </item>
+    
+    <item>
+      <title>Update a Table Name</title>
+      <link>https://www.catalyst.zoho.com/javascript/data-store/table/update-table-name/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/javascript/data-store/table/update-table-name/</guid>
+      <description>Update a Table Name</description>
+    </item>
+    
+    <item>
+      <title>Update a Table Name</title>
+      <link>https://www.catalyst.zoho.com/nodejs/data-store/table/update-table-name/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/nodejs/data-store/table/update-table-name/</guid>
+      <description>Update a Table Name</description>
+    </item>
+    
+    <item>
+      <title>Update a Table Name</title>
+      <link>https://www.catalyst.zoho.com/rest-api/data-store/table/update-table-name/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/rest-api/data-store/table/update-table-name/</guid>
+      <description>Update a Table Name</description>
+    </item>
+    
+    <item>
+      <title>All Release Notes</title>
+      <link>https://www.catalyst.zoho.com/whats-new/all-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/whats-new/all-release-notes/</guid>
+      <description>Catalyst Authentication feature enables you to add end-users to your Catalyst serverless applications, configure their user accounts and roles, and manage user sign-in and authentication of your application directly from the Catalyst console.
+Note: Refer to the links provided in this guide for detailed help on various topics. Note: Refer to the links provided in this guide for detailed help on various topics.  -- Introduction $ hugo new site .</description>
+    </item>
+    
+    <item>
+      <title>Data Store</title>
+      <link>https://www.catalyst.zoho.com/faq/data-store/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/faq/data-store/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Truncate a Table</title>
+      <link>https://www.catalyst.zoho.com/android/data-store/table/truncate-table/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/android/data-store/table/truncate-table/</guid>
+      <description>Truncate a Table</description>
+    </item>
+    
+    <item>
+      <title>Truncate a Table</title>
+      <link>https://www.catalyst.zoho.com/cli/data-store/table/truncate-table/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/cli/data-store/table/truncate-table/</guid>
+      <description>Truncate a Table</description>
+    </item>
+    
+    <item>
+      <title>Truncate a Table</title>
+      <link>https://www.catalyst.zoho.com/help/data-store/table/truncate-table/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/help/data-store/table/truncate-table/</guid>
+      <description>Truncate a Table</description>
+    </item>
+    
+    <item>
+      <title>Truncate a Table</title>
+      <link>https://www.catalyst.zoho.com/ios/data-store/table/truncate-table/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/ios/data-store/table/truncate-table/</guid>
+      <description>Truncate a Table</description>
+    </item>
+    
+    <item>
+      <title>Truncate a Table</title>
+      <link>https://www.catalyst.zoho.com/java/data-store/table/truncate-table/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/java/data-store/table/truncate-table/</guid>
+      <description>Truncate a Table</description>
+    </item>
+    
+    <item>
+      <title>Truncate a Table</title>
+      <link>https://www.catalyst.zoho.com/javascript/data-store/table/truncate-table/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/javascript/data-store/table/truncate-table/</guid>
+      <description>Truncate a Table</description>
+    </item>
+    
+    <item>
+      <title>Truncate a Table</title>
+      <link>https://www.catalyst.zoho.com/nodejs/data-store/table/truncate-table/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/nodejs/data-store/table/truncate-table/</guid>
+      <description>Truncate a Table</description>
+    </item>
+    
+    <item>
+      <title>Truncate a Table</title>
+      <link>https://www.catalyst.zoho.com/rest-api/data-store/table/truncate-table/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/rest-api/data-store/table/truncate-table/</guid>
+      <description>Truncate a Table</description>
+    </item>
+    
+    <item>
+      <title>Using the Catalyst Console</title>
+      <link>https://www.catalyst.zoho.com/docs/using-the-catalyst-console/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/docs/using-the-catalyst-console/</guid>
+      <description>Using the Catalyst Console</description>
+    </item>
+    
+    <item>
+      <title>File Store</title>
+      <link>https://www.catalyst.zoho.com/faq/file-store/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/faq/file-store/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Delete a Table</title>
+      <link>https://www.catalyst.zoho.com/android/data-store/table/delete-table/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/android/data-store/table/delete-table/</guid>
+      <description>To delete a table from the Data Store:
+1.Click the ellipsis icon for the table that needs to be deleted, then click Delete.
+2.Click Yes, Proceed in the confirmation pop-up.
+The table is now deleted from the Data Store.</description>
+    </item>
+    
+    <item>
+      <title>Delete a Table</title>
+      <link>https://www.catalyst.zoho.com/cli/data-store/table/delete-table/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/cli/data-store/table/delete-table/</guid>
+      <description>To delete a table from the Data Store:
+1.Click the ellipsis icon for the table that needs to be deleted, then click Delete.
+2.Click Yes, Proceed in the confirmation pop-up.
+The table is now deleted from the Data Store.</description>
+    </item>
+    
+    <item>
+      <title>Delete a Table</title>
+      <link>https://www.catalyst.zoho.com/help/data-store/table/delete-table/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/help/data-store/table/delete-table/</guid>
+      <description>To delete a table from the Data Store:
+1.Click the ellipsis icon for the table that needs to be deleted, then click Delete.
+2.Click Yes, Proceed in the confirmation pop-up.
+The table is now deleted from the Data Store.</description>
+    </item>
+    
+    <item>
+      <title>Delete a Table</title>
+      <link>https://www.catalyst.zoho.com/ios/data-store/table/delete-table/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/ios/data-store/table/delete-table/</guid>
+      <description>To delete a table from the Data Store:
+1.Click the ellipsis icon for the table that needs to be deleted, then click Delete.
+2.Click Yes, Proceed in the confirmation pop-up.
+The table is now deleted from the Data Store.</description>
+    </item>
+    
+    <item>
+      <title>Delete a Table</title>
+      <link>https://www.catalyst.zoho.com/java/data-store/table/delete-table/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/java/data-store/table/delete-table/</guid>
+      <description>To delete a table from the Data Store:
+1.Click the ellipsis icon for the table that needs to be deleted, then click Delete.
+2.Click Yes, Proceed in the confirmation pop-up.
+The table is now deleted from the Data Store.</description>
+    </item>
+    
+    <item>
+      <title>Delete a Table</title>
+      <link>https://www.catalyst.zoho.com/javascript/data-store/table/delete-table/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/javascript/data-store/table/delete-table/</guid>
+      <description>To delete a table from the Data Store:
+1.Click the ellipsis icon for the table that needs to be deleted, then click Delete.
+2.Click Yes, Proceed in the confirmation pop-up.
+The table is now deleted from the Data Store.</description>
+    </item>
+    
+    <item>
+      <title>Delete a Table</title>
+      <link>https://www.catalyst.zoho.com/nodejs/data-store/table/delete-table/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/nodejs/data-store/table/delete-table/</guid>
+      <description>To delete a table from the Data Store:
+1.Click the ellipsis icon for the table that needs to be deleted, then click Delete.
+2.Click Yes, Proceed in the confirmation pop-up.
+The table is now deleted from the Data Store.</description>
+    </item>
+    
+    <item>
+      <title>Delete a Table</title>
+      <link>https://www.catalyst.zoho.com/rest-api/data-store/table/delete-table/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/rest-api/data-store/table/delete-table/</guid>
+      <description>To delete a table from the Data Store:
+1.Click the ellipsis icon for the table that needs to be deleted, then click Delete.
+2.Click Yes, Proceed in the confirmation pop-up.
+The table is now deleted from the Data Store.</description>
+    </item>
+    
+    <item>
+      <title>Cache</title>
+      <link>https://www.catalyst.zoho.com/faq/cache/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/faq/cache/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cron</title>
+      <link>https://www.catalyst.zoho.com/faq/cron/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/faq/cron/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zcql Console</title>
+      <link>https://www.catalyst.zoho.com/faq/zcql-console/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/faq/zcql-console/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Whoops! Page not found</title>
+      <link>https://www.catalyst.zoho.com/404.html</link>
+      <pubDate>Tue, 08 Sep 2020 20:40:23 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/404.html</guid>
+      <description>That page can&amp;rsquo;t be found.
+Our latest content is on the homepage.
+Photo by Aron Visuals on Unsplash</description>
+    </item>
+    
+  </channel>
+</rss>

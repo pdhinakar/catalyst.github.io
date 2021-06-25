@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Schema View on catalyst</title>
+    <link>https://www.catalyst.zoho.com/ios/data-store/schema-view/</link>
+    <description>Recent content in Schema View on catalyst</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 Sep 2020 22:11:57 +0000</lastBuildDate><atom:link href="https://www.catalyst.zoho.com/ios/data-store/schema-view/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>test</title>
+      <link>https://www.catalyst.zoho.com/ios/data-store/schema-view/test/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/ios/data-store/schema-view/test/</guid>
+      <description>Test</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>main on catalyst</title>
+    <link>https://www.catalyst.zoho.com/docs/</link>
+    <description>Recent content in main on catalyst</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 Sep 2020 22:11:57 +0000</lastBuildDate><atom:link href="https://www.catalyst.zoho.com/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quick Start Guide</title>
+      <link>https://www.catalyst.zoho.com/docs/quick-start-guide/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/docs/quick-start-guide/</guid>
+      <description>This quick start guide will familiarize you with setting up the Catalyst work environment in under ten minutes. With this guide, you can quickly learn the basic steps involved in developing a Catalyst application.
+You can access detailed step-by-step tutorials on building applications and microservices involving different Catalyst components from the Tutorials section.
+Prerequisites:  Node.js and NPM for your platform to install Catalyst CLI and to develop Node.js functions Java SE Development Kit to develop Java functions Any IDE tool for coding the client or the functions.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Zoho Catalyst</title>
+      <link>https://www.catalyst.zoho.com/docs/introduction-to-zoho-catalyst/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/docs/introduction-to-zoho-catalyst/</guid>
+      <description>Introduction to Zoho Catalyst</description>
+    </item>
+    
+    <item>
+      <title>Using the Catalyst Console</title>
+      <link>https://www.catalyst.zoho.com/docs/using-the-catalyst-console/</link>
+      <pubDate>Tue, 08 Sep 2020 22:11:57 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/docs/using-the-catalyst-console/</guid>
+      <description>Using the Catalyst Console</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,3074 @@
+[
+{
+	"uri": "https://www.catalyst.zoho.com/tutorial-apps/microservice/introduction/",
+	"title": "Introduction",
+	"tags": [],
+	"description": "",
+	"content": "Microservice Catalyst Authentication feature enables you to add end-users to your Catalyst serverless applications, configure their user accounts and roles, and manage user sign-in and authentication of your application directly from the Catalyst console.\nNote: Refer to the links provided in this guide for detailed help on various topics. Note: Refer to the links provided in this guide for detailed help on various topics.  -- Introduction $ hugo new site . You can perform the following actions using Authentication from the remote console:\n Add or remove the end-users of your application Enable or disable their user accounts in your application Create templates for emails to invite new users to access the application Reset their passwords Access Catalyst\u0026rsquo;s user sign-in code snippet that you can include in your application Configure Google and Zoho sign-in providers for your application Create and manage roles to define the levels of access and permissions for users Authorize external domains and enable CORS and iFrame for your application in them  The document is divided into five pages to cover the five features of Catalyst Authentication: Users, Email Templates, Sign-in Method, Roles, Authorized Domains. Each section explains the key concepts, benefits, and implementation of each feature.\nTo install it manually, you must execute this command from the Node.js function\u0026rsquo;s directory using your terminal:\nnpm install zcatalyst-integ-cliq  If we enter the number of jobs as 2, the associated function, which returns the name object, is called two times parallelly and the input is passed to it. The output of the first iteration is generated as:\n{ \u0026quot;project_details\u0026quot;: { \u0026quot;id\u0026quot;: 57127989012782, \u0026quot;project_name\u0026quot;: \u0026quot;ShipmentTracking\u0026quot; }, \u0026quot;event_bus_details\u0026quot;: { \u0026quot;name\u0026quot;: \u0026quot;Default\u0026quot;, \u0026quot;id\u0026quot;: 12083622901983 }, \u0026quot;data\u0026quot;: { \u0026quot;platform_type\u0026quot;: web, \u0026quot;user_details\u0026quot;: { \u0026quot;email_id\u0026quot;: \u0026quot;emma@zylker.com\u0026quot;, \u0026quot;role_details\u0026quot;: { \u0026quot;role_name\u0026quot;: \u0026quot;App Admin\u0026quot;, \u0026quot;role_id\u0026quot;: 2817903788190 }, \u0026quot;zaaid\u0026quot;: 1002347509, \u0026quot;created_time\u0026quot;: \u0026quot;Sep 10, 2019 11:47 PM\u0026quot;, \u0026quot;invited_time\u0026quot;: \u0026quot;Sep 10, 2019 11:47 PM\u0026quot;, \u0026quot;modified_time\u0026quot;: \u0026quot;Sep 10, 2019 11:47 PM\u0026quot;, \u0026quot;user_id\u0026quot;: 4310838901733, \u0026quot;is_confirmed\u0026quot;: true, \u0026quot;last_name\u0026quot;: \u0026quot;Burrows\u0026quot;, \u0026quot;first_name\u0026quot;: \u0026quot;Amelia\u0026quot;, \u0026quot;zuid\u0026quot;: 1002342431, \u0026quot;status\u0026quot;: \u0026quot;ACTIVE\u0026quot; }, \u0026quot;org_id\u0026quot;: 1002347509, \u0026quot;zaid\u0026quot;: 10023451351, \u0026quot;redirect_url\u0026quot;: null }, \u0026quot;current_project\u0026quot;: { \u0026quot;id\u0026quot;: 579089178290, \u0026quot;project_name\u0026quot;: \u0026quot;ShipmentTracking\u0026quot; }, \u0026quot;action\u0026quot;: \u0026quot;SignUp\u0026quot;, \u0026quot;source\u0026quot;: \u0026quot;UserManagement\u0026quot;, \u0026quot;event_time\u0026quot;: 1568139437092 }  To learn about using Authentication in the development and production environments, visit the Environments help page.\nKey Concepts Before you configure definitions in Security Rules, understand its fundamental concepts in detail.\nConfigurations Available in Security Rules Security rules enable you to configure HTTP access and authentication for each Basic I/O and Advanced I/O function in your project, by defining values for each of those parameters in the JSON file.\nThe following values can be set for each parameter definition for a function:\n   Available Parameters Allowed Values     methods GET, POST, DELETE, PUT, PATCH   authentication optional, required    The Default Event Listener Every Catalyst project contains a default event listener that is created when the project is created. The behavior and functionality of the default event listener is completely different from that of a custom event listener. The default event listener is used to link a Catalyst component to a target function, and passes the component data to the function when it is invoked.\nThe following table describes the list of Catalyst components and the event occurrences in them that can be associated with the default event listener:\n   Component Event Description     Data Store Insert checking for new line Insert data in a table\\    Update\\ Update a table\\    Delete Delete a table   Cache Put Put data in a segment    Note: Specifying the platform does not prevent the user from accessing other platforms of the application. However, it defines the primary platform that the user will access from their device and sets default values for opening the application in the appropriate medium. SDK and API documentation You can also add and manage the end-users of your application, and obtain user details using Catalyst API and SDK. For more information and code samples on working in these programming environments, refer to these help pages:\n Authentication - Java SDK Authentication - Node.js SDK Authentication - Web SDK Authentication - API  Use Cases Catalyst Authentication features can be used in the following scenarios:\n An internal web forum, meant for the employees of an organization to discuss and gather information about the activities and tasks undertaken in various departments, uses Catalyst Authentication to manage its users. The collaborators of the web app development team can invite users to access the forum, assign roles to users, modify user information, or delete users from the console.\nThe application provides three levels of access to its various users: App admin, App Moderator, App User. The users of the user role can only submit posts in the forum, while the moderators can approve or decline the content submitted for approval, and the administrators can also permanently delete the content in the forum. These permissions for the user roles are configured in the Data Store and File Store. A travel planner web app requires its widget to be embedded in a hotel booking website, developed by one of its auxiliary companies. The hotel booking application also requires access to the travel web app\u0026rsquo;s function endpoints, to obtain specific data of their common customers. The travel web app makes use of Catalyst Authentication to quickly authorize the domain of the auxiliary company, and enable CORS and iFrame for it. The travel planner web app also implements a Google sign-in option in its client application, and manages it from the Catalyst console.  "
+},
+{
+	"uri": "https://www.catalyst.zoho.com/tutorial-apps/simple-web-application/introduction/",
+	"title": "Introduction",
+	"tags": [],
+	"description": "",
+	"content": "Simple Web Application Catalyst Authentication feature enables you to add end-users to your Catalyst serverless applications, configure their user accounts and roles, and manage user sign-in and authentication of your application directly from the Catalyst console.\nNote: Refer to the links provided in this guide for detailed help on various topics. Note: Refer to the links provided in this guide for detailed help on various topics.  -- Introduction $ hugo new site . You can perform the following actions using Authentication from the remote console:\n Add or remove the end-users of your application Enable or disable their user accounts in your application Create templates for emails to invite new users to access the application Reset their passwords Access Catalyst\u0026rsquo;s user sign-in code snippet that you can include in your application Configure Google and Zoho sign-in providers for your application Create and manage roles to define the levels of access and permissions for users Authorize external domains and enable CORS and iFrame for your application in them  The document is divided into five pages to cover the five features of Catalyst Authentication: Users, Email Templates, Sign-in Method, Roles, Authorized Domains. Each section explains the key concepts, benefits, and implementation of each feature.\nTo install it manually, you must execute this command from the Node.js function\u0026rsquo;s directory using your terminal:\nnpm install zcatalyst-integ-cliq  If we enter the number of jobs as 2, the associated function, which returns the name object, is called two times parallelly and the input is passed to it. The output of the first iteration is generated as:\n{ \u0026quot;project_details\u0026quot;: { \u0026quot;id\u0026quot;: 57127989012782, \u0026quot;project_name\u0026quot;: \u0026quot;ShipmentTracking\u0026quot; }, \u0026quot;event_bus_details\u0026quot;: { \u0026quot;name\u0026quot;: \u0026quot;Default\u0026quot;, \u0026quot;id\u0026quot;: 12083622901983 }, \u0026quot;data\u0026quot;: { \u0026quot;platform_type\u0026quot;: web, \u0026quot;user_details\u0026quot;: { \u0026quot;email_id\u0026quot;: \u0026quot;emma@zylker.com\u0026quot;, \u0026quot;role_details\u0026quot;: { \u0026quot;role_name\u0026quot;: \u0026quot;App Admin\u0026quot;, \u0026quot;role_id\u0026quot;: 2817903788190 }, \u0026quot;zaaid\u0026quot;: 1002347509, \u0026quot;created_time\u0026quot;: \u0026quot;Sep 10, 2019 11:47 PM\u0026quot;, \u0026quot;invited_time\u0026quot;: \u0026quot;Sep 10, 2019 11:47 PM\u0026quot;, \u0026quot;modified_time\u0026quot;: \u0026quot;Sep 10, 2019 11:47 PM\u0026quot;, \u0026quot;user_id\u0026quot;: 4310838901733, \u0026quot;is_confirmed\u0026quot;: true, \u0026quot;last_name\u0026quot;: \u0026quot;Burrows\u0026quot;, \u0026quot;first_name\u0026quot;: \u0026quot;Amelia\u0026quot;, \u0026quot;zuid\u0026quot;: 1002342431, \u0026quot;status\u0026quot;: \u0026quot;ACTIVE\u0026quot; }, \u0026quot;org_id\u0026quot;: 1002347509, \u0026quot;zaid\u0026quot;: 10023451351, \u0026quot;redirect_url\u0026quot;: null }, \u0026quot;current_project\u0026quot;: { \u0026quot;id\u0026quot;: 579089178290, \u0026quot;project_name\u0026quot;: \u0026quot;ShipmentTracking\u0026quot; }, \u0026quot;action\u0026quot;: \u0026quot;SignUp\u0026quot;, \u0026quot;source\u0026quot;: \u0026quot;UserManagement\u0026quot;, \u0026quot;event_time\u0026quot;: 1568139437092 }  To learn about using Authentication in the development and production environments, visit the Environments help page.\nKey Concepts Before you configure definitions in Security Rules, understand its fundamental concepts in detail.\nConfigurations Available in Security Rules Security rules enable you to configure HTTP access and authentication for each Basic I/O and Advanced I/O function in your project, by defining values for each of those parameters in the JSON file.\nThe following values can be set for each parameter definition for a function:\n   Available Parameters Allowed Values     methods GET, POST, DELETE, PUT, PATCH   authentication optional, required    The Default Event Listener Every Catalyst project contains a default event listener that is created when the project is created. The behavior and functionality of the default event listener is completely different from that of a custom event listener. The default event listener is used to link a Catalyst component to a target function, and passes the component data to the function when it is invoked.\nThe following table describes the list of Catalyst components and the event occurrences in them that can be associated with the default event listener:\n   Component Event Description     Data Store Insert checking for new line Insert data in a table\\    Update\\ Update a table\\    Delete Delete a table   Cache Put Put data in a segment    Note: Specifying the platform does not prevent the user from accessing other platforms of the application. However, it defines the primary platform that the user will access from their device and sets default values for opening the application in the appropriate medium. SDK and API documentation You can also add and manage the end-users of your application, and obtain user details using Catalyst API and SDK. For more information and code samples on working in these programming environments, refer to these help pages:\n Authentication - Java SDK Authentication - Node.js SDK Authentication - Web SDK Authentication - API  Use Cases Catalyst Authentication features can be used in the following scenarios:\n An internal web forum, meant for the employees of an organization to discuss and gather information about the activities and tasks undertaken in various departments, uses Catalyst Authentication to manage its users. The collaborators of the web app development team can invite users to access the forum, assign roles to users, modify user information, or delete users from the console.\nThe application provides three levels of access to its various users: App admin, App Moderator, App User. The users of the user role can only submit posts in the forum, while the moderators can approve or decline the content submitted for approval, and the administrators can also permanently delete the content in the forum. These permissions for the user roles are configured in the Data Store and File Store. A travel planner web app requires its widget to be embedded in a hotel booking website, developed by one of its auxiliary companies. The hotel booking application also requires access to the travel web app\u0026rsquo;s function endpoints, to obtain specific data of their common customers. The travel web app makes use of Catalyst Authentication to quickly authorize the domain of the auxiliary company, and enable CORS and iFrame for it. The travel planner web app also implements a Google sign-in option in its client application, and manages it from the Catalyst console.  "
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/authentication/",
+	"title": "Authentication",
+	"tags": [],
+	"description": "",
+	"content": "Catalyst Authentication feature enables you to add end-users to your Catalyst serverless applications, configure their user accounts and roles, and manage user sign-in and authentication of your application directly from the Catalyst console.\nNote: Refer to the links provided in this guide for detailed help on various topics. Note: Refer to the links provided in this guide for detailed help on various topics.  -- Introduction $ hugo new site . You can perform the following actions using Authentication from the remote console:\n Add or remove the end-users of your application Enable or disable their user accounts in your application Create templates for emails to invite new users to access the application Reset their passwords Access Catalyst\u0026rsquo;s user sign-in code snippet that you can include in your application Configure Google and Zoho sign-in providers for your application Create and manage roles to define the levels of access and permissions for users Authorize external domains and enable CORS and iFrame for your application in them  The document is divided into five pages to cover the five features of Catalyst Authentication: Users, Email Templates, Sign-in Method, Roles, Authorized Domains. Each section explains the key concepts, benefits, and implementation of each feature.\nTo install it manually, you must execute this command from the Node.js function\u0026rsquo;s directory using your terminal:\nnpm install zcatalyst-integ-cliq  If we enter the number of jobs as 2, the associated function, which returns the name object, is called two times parallelly and the input is passed to it. The output of the first iteration is generated as:\n{ \u0026quot;project_details\u0026quot;: { \u0026quot;id\u0026quot;: 57127989012782, \u0026quot;project_name\u0026quot;: \u0026quot;ShipmentTracking\u0026quot; }, \u0026quot;event_bus_details\u0026quot;: { \u0026quot;name\u0026quot;: \u0026quot;Default\u0026quot;, \u0026quot;id\u0026quot;: 12083622901983 }, \u0026quot;data\u0026quot;: { \u0026quot;platform_type\u0026quot;: web, \u0026quot;user_details\u0026quot;: { \u0026quot;email_id\u0026quot;: \u0026quot;emma@zylker.com\u0026quot;, \u0026quot;role_details\u0026quot;: { \u0026quot;role_name\u0026quot;: \u0026quot;App Admin\u0026quot;, \u0026quot;role_id\u0026quot;: 2817903788190 }, \u0026quot;zaaid\u0026quot;: 1002347509, \u0026quot;created_time\u0026quot;: \u0026quot;Sep 10, 2019 11:47 PM\u0026quot;, \u0026quot;invited_time\u0026quot;: \u0026quot;Sep 10, 2019 11:47 PM\u0026quot;, \u0026quot;modified_time\u0026quot;: \u0026quot;Sep 10, 2019 11:47 PM\u0026quot;, \u0026quot;user_id\u0026quot;: 4310838901733, \u0026quot;is_confirmed\u0026quot;: true, \u0026quot;last_name\u0026quot;: \u0026quot;Burrows\u0026quot;, \u0026quot;first_name\u0026quot;: \u0026quot;Amelia\u0026quot;, \u0026quot;zuid\u0026quot;: 1002342431, \u0026quot;status\u0026quot;: \u0026quot;ACTIVE\u0026quot; }, \u0026quot;org_id\u0026quot;: 1002347509, \u0026quot;zaid\u0026quot;: 10023451351, \u0026quot;redirect_url\u0026quot;: null }, \u0026quot;current_project\u0026quot;: { \u0026quot;id\u0026quot;: 579089178290, \u0026quot;project_name\u0026quot;: \u0026quot;ShipmentTracking\u0026quot; }, \u0026quot;action\u0026quot;: \u0026quot;SignUp\u0026quot;, \u0026quot;source\u0026quot;: \u0026quot;UserManagement\u0026quot;, \u0026quot;event_time\u0026quot;: 1568139437092 }  To learn about using Authentication in the development and production environments, visit the Environments help page.\nKey Concepts Before you configure definitions in Security Rules, understand its fundamental concepts in detail.\nConfigurations Available in Security Rules Security rules enable you to configure HTTP access and authentication for each Basic I/O and Advanced I/O function in your project, by defining values for each of those parameters in the JSON file.\nThe following values can be set for each parameter definition for a function:\n   Available Parameters Allowed Values     methods GET, POST, DELETE, PUT, PATCH   authentication optional, required    The Default Event Listener Every Catalyst project contains a default event listener that is created when the project is created. The behavior and functionality of the default event listener is completely different from that of a custom event listener. The default event listener is used to link a Catalyst component to a target function, and passes the component data to the function when it is invoked.\nThe following table describes the list of Catalyst components and the event occurrences in them that can be associated with the default event listener:\n   Component Event Description     Data Store Insert checking for new line Insert data in a table\\    Update\\ Update a table\\    Delete Delete a table   Cache Put Put data in a segment    Note: Specifying the platform does not prevent the user from accessing other platforms of the application. However, it defines the primary platform that the user will access from their device and sets default values for opening the application in the appropriate medium. SDK and API documentation You can also add and manage the end-users of your application, and obtain user details using Catalyst API and SDK. For more information and code samples on working in these programming environments, refer to these help pages:\n Authentication - Java SDK Authentication - Node.js SDK Authentication - Web SDK Authentication - API  Use Cases Catalyst Authentication features can be used in the following scenarios:\n An internal web forum, meant for the employees of an organization to discuss and gather information about the activities and tasks undertaken in various departments, uses Catalyst Authentication to manage its users. The collaborators of the web app development team can invite users to access the forum, assign roles to users, modify user information, or delete users from the console.\nThe application provides three levels of access to its various users: App admin, App Moderator, App User. The users of the user role can only submit posts in the forum, while the moderators can approve or decline the content submitted for approval, and the administrators can also permanently delete the content in the forum. These permissions for the user roles are configured in the Data Store and File Store. A travel planner web app requires its widget to be embedded in a hotel booking website, developed by one of its auxiliary companies. The hotel booking application also requires access to the travel web app\u0026rsquo;s function endpoints, to obtain specific data of their common customers. The travel web app makes use of Catalyst Authentication to quickly authorize the domain of the auxiliary company, and enable CORS and iFrame for it. The travel planner web app also implements a Google sign-in option in its client application, and manages it from the Catalyst console.  "
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/authentication/",
+	"title": "Authentication",
+	"tags": [],
+	"description": "",
+	"content": "Catalyst Authentication feature enables you to add end-users to your Catalyst serverless applications, configure their user accounts and roles, and manage user sign-in and authentication of your application directly from the Catalyst console.\nNote: Refer to the links provided in this guide for detailed help on various topics. Note: Refer to the links provided in this guide for detailed help on various topics.  -- Introduction $ hugo new site . You can perform the following actions using Authentication from the remote console:\n Add or remove the end-users of your application Enable or disable their user accounts in your application Create templates for emails to invite new users to access the application Reset their passwords Access Catalyst\u0026rsquo;s user sign-in code snippet that you can include in your application Configure Google and Zoho sign-in providers for your application Create and manage roles to define the levels of access and permissions for users Authorize external domains and enable CORS and iFrame for your application in them  The document is divided into five pages to cover the five features of Catalyst Authentication: Users, Email Templates, Sign-in Method, Roles, Authorized Domains. Each section explains the key concepts, benefits, and implementation of each feature.\nTo install it manually, you must execute this command from the Node.js function\u0026rsquo;s directory using your terminal:\nnpm install zcatalyst-integ-cliq  If we enter the number of jobs as 2, the associated function, which returns the name object, is called two times parallelly and the input is passed to it. The output of the first iteration is generated as:\n{ \u0026quot;project_details\u0026quot;: { \u0026quot;id\u0026quot;: 57127989012782, \u0026quot;project_name\u0026quot;: \u0026quot;ShipmentTracking\u0026quot; }, \u0026quot;event_bus_details\u0026quot;: { \u0026quot;name\u0026quot;: \u0026quot;Default\u0026quot;, \u0026quot;id\u0026quot;: 12083622901983 }, \u0026quot;data\u0026quot;: { \u0026quot;platform_type\u0026quot;: web, \u0026quot;user_details\u0026quot;: { \u0026quot;email_id\u0026quot;: \u0026quot;emma@zylker.com\u0026quot;, \u0026quot;role_details\u0026quot;: { \u0026quot;role_name\u0026quot;: \u0026quot;App Admin\u0026quot;, \u0026quot;role_id\u0026quot;: 2817903788190 }, \u0026quot;zaaid\u0026quot;: 1002347509, \u0026quot;created_time\u0026quot;: \u0026quot;Sep 10, 2019 11:47 PM\u0026quot;, \u0026quot;invited_time\u0026quot;: \u0026quot;Sep 10, 2019 11:47 PM\u0026quot;, \u0026quot;modified_time\u0026quot;: \u0026quot;Sep 10, 2019 11:47 PM\u0026quot;, \u0026quot;user_id\u0026quot;: 4310838901733, \u0026quot;is_confirmed\u0026quot;: true, \u0026quot;last_name\u0026quot;: \u0026quot;Burrows\u0026quot;, \u0026quot;first_name\u0026quot;: \u0026quot;Amelia\u0026quot;, \u0026quot;zuid\u0026quot;: 1002342431, \u0026quot;status\u0026quot;: \u0026quot;ACTIVE\u0026quot; }, \u0026quot;org_id\u0026quot;: 1002347509, \u0026quot;zaid\u0026quot;: 10023451351, \u0026quot;redirect_url\u0026quot;: null }, \u0026quot;current_project\u0026quot;: { \u0026quot;id\u0026quot;: 579089178290, \u0026quot;project_name\u0026quot;: \u0026quot;ShipmentTracking\u0026quot; }, \u0026quot;action\u0026quot;: \u0026quot;SignUp\u0026quot;, \u0026quot;source\u0026quot;: \u0026quot;UserManagement\u0026quot;, \u0026quot;event_time\u0026quot;: 1568139437092 }  To learn about using Authentication in the development and production environments, visit the Environments help page.\nKey Concepts Before you configure definitions in Security Rules, understand its fundamental concepts in detail.\nConfigurations Available in Security Rules Security rules enable you to configure HTTP access and authentication for each Basic I/O and Advanced I/O function in your project, by defining values for each of those parameters in the JSON file.\nThe following values can be set for each parameter definition for a function:\n   Available Parameters Allowed Values     methods GET, POST, DELETE, PUT, PATCH   authentication optional, required    The Default Event Listener Every Catalyst project contains a default event listener that is created when the project is created. The behavior and functionality of the default event listener is completely different from that of a custom event listener. The default event listener is used to link a Catalyst component to a target function, and passes the component data to the function when it is invoked.\nThe following table describes the list of Catalyst components and the event occurrences in them that can be associated with the default event listener:\n   Component Event Description     Data Store Insert checking for new line Insert data in a table\\    Update\\ Update a table\\    Delete Delete a table   Cache Put Put data in a segment    Note: Specifying the platform does not prevent the user from accessing other platforms of the application. However, it defines the primary platform that the user will access from their device and sets default values for opening the application in the appropriate medium. SDK and API documentation You can also add and manage the end-users of your application, and obtain user details using Catalyst API and SDK. For more information and code samples on working in these programming environments, refer to these help pages:\n Authentication - Java SDK Authentication - Node.js SDK Authentication - Web SDK Authentication - API  Use Cases Catalyst Authentication features can be used in the following scenarios:\n An internal web forum, meant for the employees of an organization to discuss and gather information about the activities and tasks undertaken in various departments, uses Catalyst Authentication to manage its users. The collaborators of the web app development team can invite users to access the forum, assign roles to users, modify user information, or delete users from the console.\nThe application provides three levels of access to its various users: App admin, App Moderator, App User. The users of the user role can only submit posts in the forum, while the moderators can approve or decline the content submitted for approval, and the administrators can also permanently delete the content in the forum. These permissions for the user roles are configured in the Data Store and File Store. A travel planner web app requires its widget to be embedded in a hotel booking website, developed by one of its auxiliary companies. The hotel booking application also requires access to the travel web app\u0026rsquo;s function endpoints, to obtain specific data of their common customers. The travel web app makes use of Catalyst Authentication to quickly authorize the domain of the auxiliary company, and enable CORS and iFrame for it. The travel planner web app also implements a Google sign-in option in its client application, and manages it from the Catalyst console.  "
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/authentication/",
+	"title": "Authentication",
+	"tags": [],
+	"description": "",
+	"content": "Catalyst Authentication feature enables you to add end-users to your Catalyst serverless applications, configure their user accounts and roles, and manage user sign-in and authentication of your application directly from the Catalyst console.\nNote: Refer to the links provided in this guide for detailed help on various topics. Note: Refer to the links provided in this guide for detailed help on various topics.  -- Introduction $ hugo new site . You can perform the following actions using Authentication from the remote console:\n Add or remove the end-users of your application Enable or disable their user accounts in your application Create templates for emails to invite new users to access the application Reset their passwords Access Catalyst\u0026rsquo;s user sign-in code snippet that you can include in your application Configure Google and Zoho sign-in providers for your application Create and manage roles to define the levels of access and permissions for users Authorize external domains and enable CORS and iFrame for your application in them  The document is divided into five pages to cover the five features of Catalyst Authentication: Users, Email Templates, Sign-in Method, Roles, Authorized Domains. Each section explains the key concepts, benefits, and implementation of each feature.\nTo install it manually, you must execute this command from the Node.js function\u0026rsquo;s directory using your terminal:\nnpm install zcatalyst-integ-cliq  If we enter the number of jobs as 2, the associated function, which returns the name object, is called two times parallelly and the input is passed to it. The output of the first iteration is generated as:\n{ \u0026quot;project_details\u0026quot;: { \u0026quot;id\u0026quot;: 57127989012782, \u0026quot;project_name\u0026quot;: \u0026quot;ShipmentTracking\u0026quot; }, \u0026quot;event_bus_details\u0026quot;: { \u0026quot;name\u0026quot;: \u0026quot;Default\u0026quot;, \u0026quot;id\u0026quot;: 12083622901983 }, \u0026quot;data\u0026quot;: { \u0026quot;platform_type\u0026quot;: web, \u0026quot;user_details\u0026quot;: { \u0026quot;email_id\u0026quot;: \u0026quot;emma@zylker.com\u0026quot;, \u0026quot;role_details\u0026quot;: { \u0026quot;role_name\u0026quot;: \u0026quot;App Admin\u0026quot;, \u0026quot;role_id\u0026quot;: 2817903788190 }, \u0026quot;zaaid\u0026quot;: 1002347509, \u0026quot;created_time\u0026quot;: \u0026quot;Sep 10, 2019 11:47 PM\u0026quot;, \u0026quot;invited_time\u0026quot;: \u0026quot;Sep 10, 2019 11:47 PM\u0026quot;, \u0026quot;modified_time\u0026quot;: \u0026quot;Sep 10, 2019 11:47 PM\u0026quot;, \u0026quot;user_id\u0026quot;: 4310838901733, \u0026quot;is_confirmed\u0026quot;: true, \u0026quot;last_name\u0026quot;: \u0026quot;Burrows\u0026quot;, \u0026quot;first_name\u0026quot;: \u0026quot;Amelia\u0026quot;, \u0026quot;zuid\u0026quot;: 1002342431, \u0026quot;status\u0026quot;: \u0026quot;ACTIVE\u0026quot; }, \u0026quot;org_id\u0026quot;: 1002347509, \u0026quot;zaid\u0026quot;: 10023451351, \u0026quot;redirect_url\u0026quot;: null }, \u0026quot;current_project\u0026quot;: { \u0026quot;id\u0026quot;: 579089178290, \u0026quot;project_name\u0026quot;: \u0026quot;ShipmentTracking\u0026quot; }, \u0026quot;action\u0026quot;: \u0026quot;SignUp\u0026quot;, \u0026quot;source\u0026quot;: \u0026quot;UserManagement\u0026quot;, \u0026quot;event_time\u0026quot;: 1568139437092 }  To learn about using Authentication in the development and production environments, visit the Environments help page.\nKey Concepts Before you configure definitions in Security Rules, understand its fundamental concepts in detail.\nConfigurations Available in Security Rules Security rules enable you to configure HTTP access and authentication for each Basic I/O and Advanced I/O function in your project, by defining values for each of those parameters in the JSON file.\nThe following values can be set for each parameter definition for a function:\n   Available Parameters Allowed Values     methods GET, POST, DELETE, PUT, PATCH   authentication optional, required    The Default Event Listener Every Catalyst project contains a default event listener that is created when the project is created. The behavior and functionality of the default event listener is completely different from that of a custom event listener. The default event listener is used to link a Catalyst component to a target function, and passes the component data to the function when it is invoked.\nThe following table describes the list of Catalyst components and the event occurrences in them that can be associated with the default event listener:\n   Component Event Description     Data Store Insert checking for new line Insert data in a table\\    Update\\ Update a table\\    Delete Delete a table   Cache Put Put data in a segment    Note: Specifying the platform does not prevent the user from accessing other platforms of the application. However, it defines the primary platform that the user will access from their device and sets default values for opening the application in the appropriate medium. SDK and API documentation You can also add and manage the end-users of your application, and obtain user details using Catalyst API and SDK. For more information and code samples on working in these programming environments, refer to these help pages:\n Authentication - Java SDK Authentication - Node.js SDK Authentication - Web SDK Authentication - API  Use Cases Catalyst Authentication features can be used in the following scenarios:\n An internal web forum, meant for the employees of an organization to discuss and gather information about the activities and tasks undertaken in various departments, uses Catalyst Authentication to manage its users. The collaborators of the web app development team can invite users to access the forum, assign roles to users, modify user information, or delete users from the console.\nThe application provides three levels of access to its various users: App admin, App Moderator, App User. The users of the user role can only submit posts in the forum, while the moderators can approve or decline the content submitted for approval, and the administrators can also permanently delete the content in the forum. These permissions for the user roles are configured in the Data Store and File Store. A travel planner web app requires its widget to be embedded in a hotel booking website, developed by one of its auxiliary companies. The hotel booking application also requires access to the travel web app\u0026rsquo;s function endpoints, to obtain specific data of their common customers. The travel web app makes use of Catalyst Authentication to quickly authorize the domain of the auxiliary company, and enable CORS and iFrame for it. The travel planner web app also implements a Google sign-in option in its client application, and manages it from the Catalyst console.  "
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/authentication/",
+	"title": "Authentication",
+	"tags": [],
+	"description": "",
+	"content": "Catalyst Authentication feature enables you to add end-users to your Catalyst serverless applications, configure their user accounts and roles, and manage user sign-in and authentication of your application directly from the Catalyst console.\nNote: Refer to the links provided in this guide for detailed help on various topics. Note: Refer to the links provided in this guide for detailed help on various topics.  -- Introduction $ hugo new site . You can perform the following actions using Authentication from the remote console:\n Add or remove the end-users of your application Enable or disable their user accounts in your application Create templates for emails to invite new users to access the application Reset their passwords Access Catalyst\u0026rsquo;s user sign-in code snippet that you can include in your application Configure Google and Zoho sign-in providers for your application Create and manage roles to define the levels of access and permissions for users Authorize external domains and enable CORS and iFrame for your application in them  The document is divided into five pages to cover the five features of Catalyst Authentication: Users, Email Templates, Sign-in Method, Roles, Authorized Domains. Each section explains the key concepts, benefits, and implementation of each feature.\nTo install it manually, you must execute this command from the Node.js function\u0026rsquo;s directory using your terminal:\nnpm install zcatalyst-integ-cliq  If we enter the number of jobs as 2, the associated function, which returns the name object, is called two times parallelly and the input is passed to it. The output of the first iteration is generated as:\n{ \u0026quot;project_details\u0026quot;: { \u0026quot;id\u0026quot;: 57127989012782, \u0026quot;project_name\u0026quot;: \u0026quot;ShipmentTracking\u0026quot; }, \u0026quot;event_bus_details\u0026quot;: { \u0026quot;name\u0026quot;: \u0026quot;Default\u0026quot;, \u0026quot;id\u0026quot;: 12083622901983 }, \u0026quot;data\u0026quot;: { \u0026quot;platform_type\u0026quot;: web, \u0026quot;user_details\u0026quot;: { \u0026quot;email_id\u0026quot;: \u0026quot;emma@zylker.com\u0026quot;, \u0026quot;role_details\u0026quot;: { \u0026quot;role_name\u0026quot;: \u0026quot;App Admin\u0026quot;, \u0026quot;role_id\u0026quot;: 2817903788190 }, \u0026quot;zaaid\u0026quot;: 1002347509, \u0026quot;created_time\u0026quot;: \u0026quot;Sep 10, 2019 11:47 PM\u0026quot;, \u0026quot;invited_time\u0026quot;: \u0026quot;Sep 10, 2019 11:47 PM\u0026quot;, \u0026quot;modified_time\u0026quot;: \u0026quot;Sep 10, 2019 11:47 PM\u0026quot;, \u0026quot;user_id\u0026quot;: 4310838901733, \u0026quot;is_confirmed\u0026quot;: true, \u0026quot;last_name\u0026quot;: \u0026quot;Burrows\u0026quot;, \u0026quot;first_name\u0026quot;: \u0026quot;Amelia\u0026quot;, \u0026quot;zuid\u0026quot;: 1002342431, \u0026quot;status\u0026quot;: \u0026quot;ACTIVE\u0026quot; }, \u0026quot;org_id\u0026quot;: 1002347509, \u0026quot;zaid\u0026quot;: 10023451351, \u0026quot;redirect_url\u0026quot;: null }, \u0026quot;current_project\u0026quot;: { \u0026quot;id\u0026quot;: 579089178290, \u0026quot;project_name\u0026quot;: \u0026quot;ShipmentTracking\u0026quot; }, \u0026quot;action\u0026quot;: \u0026quot;SignUp\u0026quot;, \u0026quot;source\u0026quot;: \u0026quot;UserManagement\u0026quot;, \u0026quot;event_time\u0026quot;: 1568139437092 }  To learn about using Authentication in the development and production environments, visit the Environments help page.\nKey Concepts Before you configure definitions in Security Rules, understand its fundamental concepts in detail.\nConfigurations Available in Security Rules Security rules enable you to configure HTTP access and authentication for each Basic I/O and Advanced I/O function in your project, by defining values for each of those parameters in the JSON file.\nThe following values can be set for each parameter definition for a function:\n   Available Parameters Allowed Values     methods GET, POST, DELETE, PUT, PATCH   authentication optional, required    The Default Event Listener Every Catalyst project contains a default event listener that is created when the project is created. The behavior and functionality of the default event listener is completely different from that of a custom event listener. The default event listener is used to link a Catalyst component to a target function, and passes the component data to the function when it is invoked.\nThe following table describes the list of Catalyst components and the event occurrences in them that can be associated with the default event listener:\n   Component Event Description     Data Store Insert checking for new line Insert data in a table\\    Update\\ Update a table\\    Delete Delete a table   Cache Put Put data in a segment    Note: Specifying the platform does not prevent the user from accessing other platforms of the application. However, it defines the primary platform that the user will access from their device and sets default values for opening the application in the appropriate medium. SDK and API documentation You can also add and manage the end-users of your application, and obtain user details using Catalyst API and SDK. For more information and code samples on working in these programming environments, refer to these help pages:\n Authentication - Java SDK Authentication - Node.js SDK Authentication - Web SDK Authentication - API  Use Cases Catalyst Authentication features can be used in the following scenarios:\n An internal web forum, meant for the employees of an organization to discuss and gather information about the activities and tasks undertaken in various departments, uses Catalyst Authentication to manage its users. The collaborators of the web app development team can invite users to access the forum, assign roles to users, modify user information, or delete users from the console.\nThe application provides three levels of access to its various users: App admin, App Moderator, App User. The users of the user role can only submit posts in the forum, while the moderators can approve or decline the content submitted for approval, and the administrators can also permanently delete the content in the forum. These permissions for the user roles are configured in the Data Store and File Store. A travel planner web app requires its widget to be embedded in a hotel booking website, developed by one of its auxiliary companies. The hotel booking application also requires access to the travel web app\u0026rsquo;s function endpoints, to obtain specific data of their common customers. The travel web app makes use of Catalyst Authentication to quickly authorize the domain of the auxiliary company, and enable CORS and iFrame for it. The travel planner web app also implements a Google sign-in option in its client application, and manages it from the Catalyst console.  "
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/authentication/",
+	"title": "Authentication",
+	"tags": [],
+	"description": "",
+	"content": "Catalyst Authentication feature enables you to add end-users to your Catalyst serverless applications, configure their user accounts and roles, and manage user sign-in and authentication of your application directly from the Catalyst console.\nNote: Refer to the links provided in this guide for detailed help on various topics. Note: Refer to the links provided in this guide for detailed help on various topics.  -- Introduction $ hugo new site . You can perform the following actions using Authentication from the remote console:\n Add or remove the end-users of your application Enable or disable their user accounts in your application Create templates for emails to invite new users to access the application Reset their passwords Access Catalyst\u0026rsquo;s user sign-in code snippet that you can include in your application Configure Google and Zoho sign-in providers for your application Create and manage roles to define the levels of access and permissions for users Authorize external domains and enable CORS and iFrame for your application in them  The document is divided into five pages to cover the five features of Catalyst Authentication: Users, Email Templates, Sign-in Method, Roles, Authorized Domains. Each section explains the key concepts, benefits, and implementation of each feature.\nTo install it manually, you must execute this command from the Node.js function\u0026rsquo;s directory using your terminal:\nnpm install zcatalyst-integ-cliq  If we enter the number of jobs as 2, the associated function, which returns the name object, is called two times parallelly and the input is passed to it. The output of the first iteration is generated as:\n{ \u0026quot;project_details\u0026quot;: { \u0026quot;id\u0026quot;: 57127989012782, \u0026quot;project_name\u0026quot;: \u0026quot;ShipmentTracking\u0026quot; }, \u0026quot;event_bus_details\u0026quot;: { \u0026quot;name\u0026quot;: \u0026quot;Default\u0026quot;, \u0026quot;id\u0026quot;: 12083622901983 }, \u0026quot;data\u0026quot;: { \u0026quot;platform_type\u0026quot;: web, \u0026quot;user_details\u0026quot;: { \u0026quot;email_id\u0026quot;: \u0026quot;emma@zylker.com\u0026quot;, \u0026quot;role_details\u0026quot;: { \u0026quot;role_name\u0026quot;: \u0026quot;App Admin\u0026quot;, \u0026quot;role_id\u0026quot;: 2817903788190 }, \u0026quot;zaaid\u0026quot;: 1002347509, \u0026quot;created_time\u0026quot;: \u0026quot;Sep 10, 2019 11:47 PM\u0026quot;, \u0026quot;invited_time\u0026quot;: \u0026quot;Sep 10, 2019 11:47 PM\u0026quot;, \u0026quot;modified_time\u0026quot;: \u0026quot;Sep 10, 2019 11:47 PM\u0026quot;, \u0026quot;user_id\u0026quot;: 4310838901733, \u0026quot;is_confirmed\u0026quot;: true, \u0026quot;last_name\u0026quot;: \u0026quot;Burrows\u0026quot;, \u0026quot;first_name\u0026quot;: \u0026quot;Amelia\u0026quot;, \u0026quot;zuid\u0026quot;: 1002342431, \u0026quot;status\u0026quot;: \u0026quot;ACTIVE\u0026quot; }, \u0026quot;org_id\u0026quot;: 1002347509, \u0026quot;zaid\u0026quot;: 10023451351, \u0026quot;redirect_url\u0026quot;: null }, \u0026quot;current_project\u0026quot;: { \u0026quot;id\u0026quot;: 579089178290, \u0026quot;project_name\u0026quot;: \u0026quot;ShipmentTracking\u0026quot; }, \u0026quot;action\u0026quot;: \u0026quot;SignUp\u0026quot;, \u0026quot;source\u0026quot;: \u0026quot;UserManagement\u0026quot;, \u0026quot;event_time\u0026quot;: 1568139437092 }  To learn about using Authentication in the development and production environments, visit the Environments help page.\nKey Concepts Before you configure definitions in Security Rules, understand its fundamental concepts in detail.\nConfigurations Available in Security Rules Security rules enable you to configure HTTP access and authentication for each Basic I/O and Advanced I/O function in your project, by defining values for each of those parameters in the JSON file.\nThe following values can be set for each parameter definition for a function:\n   Available Parameters Allowed Values     methods GET, POST, DELETE, PUT, PATCH   authentication optional, required    The Default Event Listener Every Catalyst project contains a default event listener that is created when the project is created. The behavior and functionality of the default event listener is completely different from that of a custom event listener. The default event listener is used to link a Catalyst component to a target function, and passes the component data to the function when it is invoked.\nThe following table describes the list of Catalyst components and the event occurrences in them that can be associated with the default event listener:\n   Component Event Description     Data Store Insert checking for new line Insert data in a table\\    Update\\ Update a table\\    Delete Delete a table   Cache Put Put data in a segment    Note: Specifying the platform does not prevent the user from accessing other platforms of the application. However, it defines the primary platform that the user will access from their device and sets default values for opening the application in the appropriate medium. SDK and API documentation You can also add and manage the end-users of your application, and obtain user details using Catalyst API and SDK. For more information and code samples on working in these programming environments, refer to these help pages:\n Authentication - Java SDK Authentication - Node.js SDK Authentication - Web SDK Authentication - API  Use Cases Catalyst Authentication features can be used in the following scenarios:\n An internal web forum, meant for the employees of an organization to discuss and gather information about the activities and tasks undertaken in various departments, uses Catalyst Authentication to manage its users. The collaborators of the web app development team can invite users to access the forum, assign roles to users, modify user information, or delete users from the console.\nThe application provides three levels of access to its various users: App admin, App Moderator, App User. The users of the user role can only submit posts in the forum, while the moderators can approve or decline the content submitted for approval, and the administrators can also permanently delete the content in the forum. These permissions for the user roles are configured in the Data Store and File Store. A travel planner web app requires its widget to be embedded in a hotel booking website, developed by one of its auxiliary companies. The hotel booking application also requires access to the travel web app\u0026rsquo;s function endpoints, to obtain specific data of their common customers. The travel web app makes use of Catalyst Authentication to quickly authorize the domain of the auxiliary company, and enable CORS and iFrame for it. The travel planner web app also implements a Google sign-in option in its client application, and manages it from the Catalyst console.  "
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/authentication/",
+	"title": "Authentication",
+	"tags": [],
+	"description": "",
+	"content": "Catalyst Authentication feature enables you to add end-users to your Catalyst serverless applications, configure their user accounts and roles, and manage user sign-in and authentication of your application directly from the Catalyst console.\nNote: Refer to the links provided in this guide for detailed help on various topics. Note: Refer to the links provided in this guide for detailed help on various topics.  -- Introduction $ hugo new site . You can perform the following actions using Authentication from the remote console:\n Add or remove the end-users of your application Enable or disable their user accounts in your application Create templates for emails to invite new users to access the application Reset their passwords Access Catalyst\u0026rsquo;s user sign-in code snippet that you can include in your application Configure Google and Zoho sign-in providers for your application Create and manage roles to define the levels of access and permissions for users Authorize external domains and enable CORS and iFrame for your application in them  The document is divided into five pages to cover the five features of Catalyst Authentication: Users, Email Templates, Sign-in Method, Roles, Authorized Domains. Each section explains the key concepts, benefits, and implementation of each feature.\nTo install it manually, you must execute this command from the Node.js function\u0026rsquo;s directory using your terminal:\nnpm install zcatalyst-integ-cliq  If we enter the number of jobs as 2, the associated function, which returns the name object, is called two times parallelly and the input is passed to it. The output of the first iteration is generated as:\n{ \u0026quot;project_details\u0026quot;: { \u0026quot;id\u0026quot;: 57127989012782, \u0026quot;project_name\u0026quot;: \u0026quot;ShipmentTracking\u0026quot; }, \u0026quot;event_bus_details\u0026quot;: { \u0026quot;name\u0026quot;: \u0026quot;Default\u0026quot;, \u0026quot;id\u0026quot;: 12083622901983 }, \u0026quot;data\u0026quot;: { \u0026quot;platform_type\u0026quot;: web, \u0026quot;user_details\u0026quot;: { \u0026quot;email_id\u0026quot;: \u0026quot;emma@zylker.com\u0026quot;, \u0026quot;role_details\u0026quot;: { \u0026quot;role_name\u0026quot;: \u0026quot;App Admin\u0026quot;, \u0026quot;role_id\u0026quot;: 2817903788190 }, \u0026quot;zaaid\u0026quot;: 1002347509, \u0026quot;created_time\u0026quot;: \u0026quot;Sep 10, 2019 11:47 PM\u0026quot;, \u0026quot;invited_time\u0026quot;: \u0026quot;Sep 10, 2019 11:47 PM\u0026quot;, \u0026quot;modified_time\u0026quot;: \u0026quot;Sep 10, 2019 11:47 PM\u0026quot;, \u0026quot;user_id\u0026quot;: 4310838901733, \u0026quot;is_confirmed\u0026quot;: true, \u0026quot;last_name\u0026quot;: \u0026quot;Burrows\u0026quot;, \u0026quot;first_name\u0026quot;: \u0026quot;Amelia\u0026quot;, \u0026quot;zuid\u0026quot;: 1002342431, \u0026quot;status\u0026quot;: \u0026quot;ACTIVE\u0026quot; }, \u0026quot;org_id\u0026quot;: 1002347509, \u0026quot;zaid\u0026quot;: 10023451351, \u0026quot;redirect_url\u0026quot;: null }, \u0026quot;current_project\u0026quot;: { \u0026quot;id\u0026quot;: 579089178290, \u0026quot;project_name\u0026quot;: \u0026quot;ShipmentTracking\u0026quot; }, \u0026quot;action\u0026quot;: \u0026quot;SignUp\u0026quot;, \u0026quot;source\u0026quot;: \u0026quot;UserManagement\u0026quot;, \u0026quot;event_time\u0026quot;: 1568139437092 }  To learn about using Authentication in the development and production environments, visit the Environments help page.\nKey Concepts Before you configure definitions in Security Rules, understand its fundamental concepts in detail.\nConfigurations Available in Security Rules Security rules enable you to configure HTTP access and authentication for each Basic I/O and Advanced I/O function in your project, by defining values for each of those parameters in the JSON file.\nThe following values can be set for each parameter definition for a function:\n   Available Parameters Allowed Values     methods GET, POST, DELETE, PUT, PATCH   authentication optional, required    The Default Event Listener Every Catalyst project contains a default event listener that is created when the project is created. The behavior and functionality of the default event listener is completely different from that of a custom event listener. The default event listener is used to link a Catalyst component to a target function, and passes the component data to the function when it is invoked.\nThe following table describes the list of Catalyst components and the event occurrences in them that can be associated with the default event listener:\n   Component Event Description     Data Store Insert checking for new line Insert data in a table\\    Update\\ Update a table\\    Delete Delete a table   Cache Put Put data in a segment    Note: Specifying the platform does not prevent the user from accessing other platforms of the application. However, it defines the primary platform that the user will access from their device and sets default values for opening the application in the appropriate medium. SDK and API documentation You can also add and manage the end-users of your application, and obtain user details using Catalyst API and SDK. For more information and code samples on working in these programming environments, refer to these help pages:\n Authentication - Java SDK Authentication - Node.js SDK Authentication - Web SDK Authentication - API  Use Cases Catalyst Authentication features can be used in the following scenarios:\n An internal web forum, meant for the employees of an organization to discuss and gather information about the activities and tasks undertaken in various departments, uses Catalyst Authentication to manage its users. The collaborators of the web app development team can invite users to access the forum, assign roles to users, modify user information, or delete users from the console.\nThe application provides three levels of access to its various users: App admin, App Moderator, App User. The users of the user role can only submit posts in the forum, while the moderators can approve or decline the content submitted for approval, and the administrators can also permanently delete the content in the forum. These permissions for the user roles are configured in the Data Store and File Store. A travel planner web app requires its widget to be embedded in a hotel booking website, developed by one of its auxiliary companies. The hotel booking application also requires access to the travel web app\u0026rsquo;s function endpoints, to obtain specific data of their common customers. The travel web app makes use of Catalyst Authentication to quickly authorize the domain of the auxiliary company, and enable CORS and iFrame for it. The travel planner web app also implements a Google sign-in option in its client application, and manages it from the Catalyst console.  "
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/authentication/",
+	"title": "Authentication",
+	"tags": [],
+	"description": "",
+	"content": "Catalyst Authentication feature enables you to add end-users to your Catalyst serverless applications, configure their user accounts and roles, and manage user sign-in and authentication of your application directly from the Catalyst console.\nNote: Refer to the links provided in this guide for detailed help on various topics. Note: Refer to the links provided in this guide for detailed help on various topics.  -- Introduction $ hugo new site . You can perform the following actions using Authentication from the remote console:\n Add or remove the end-users of your application Enable or disable their user accounts in your application Create templates for emails to invite new users to access the application Reset their passwords Access Catalyst\u0026rsquo;s user sign-in code snippet that you can include in your application Configure Google and Zoho sign-in providers for your application Create and manage roles to define the levels of access and permissions for users Authorize external domains and enable CORS and iFrame for your application in them  The document is divided into five pages to cover the five features of Catalyst Authentication: Users, Email Templates, Sign-in Method, Roles, Authorized Domains. Each section explains the key concepts, benefits, and implementation of each feature.\nTo install it manually, you must execute this command from the Node.js function\u0026rsquo;s directory using your terminal:\nnpm install zcatalyst-integ-cliq  If we enter the number of jobs as 2, the associated function, which returns the name object, is called two times parallelly and the input is passed to it. The output of the first iteration is generated as:\n{ \u0026quot;project_details\u0026quot;: { \u0026quot;id\u0026quot;: 57127989012782, \u0026quot;project_name\u0026quot;: \u0026quot;ShipmentTracking\u0026quot; }, \u0026quot;event_bus_details\u0026quot;: { \u0026quot;name\u0026quot;: \u0026quot;Default\u0026quot;, \u0026quot;id\u0026quot;: 12083622901983 }, \u0026quot;data\u0026quot;: { \u0026quot;platform_type\u0026quot;: web, \u0026quot;user_details\u0026quot;: { \u0026quot;email_id\u0026quot;: \u0026quot;emma@zylker.com\u0026quot;, \u0026quot;role_details\u0026quot;: { \u0026quot;role_name\u0026quot;: \u0026quot;App Admin\u0026quot;, \u0026quot;role_id\u0026quot;: 2817903788190 }, \u0026quot;zaaid\u0026quot;: 1002347509, \u0026quot;created_time\u0026quot;: \u0026quot;Sep 10, 2019 11:47 PM\u0026quot;, \u0026quot;invited_time\u0026quot;: \u0026quot;Sep 10, 2019 11:47 PM\u0026quot;, \u0026quot;modified_time\u0026quot;: \u0026quot;Sep 10, 2019 11:47 PM\u0026quot;, \u0026quot;user_id\u0026quot;: 4310838901733, \u0026quot;is_confirmed\u0026quot;: true, \u0026quot;last_name\u0026quot;: \u0026quot;Burrows\u0026quot;, \u0026quot;first_name\u0026quot;: \u0026quot;Amelia\u0026quot;, \u0026quot;zuid\u0026quot;: 1002342431, \u0026quot;status\u0026quot;: \u0026quot;ACTIVE\u0026quot; }, \u0026quot;org_id\u0026quot;: 1002347509, \u0026quot;zaid\u0026quot;: 10023451351, \u0026quot;redirect_url\u0026quot;: null }, \u0026quot;current_project\u0026quot;: { \u0026quot;id\u0026quot;: 579089178290, \u0026quot;project_name\u0026quot;: \u0026quot;ShipmentTracking\u0026quot; }, \u0026quot;action\u0026quot;: \u0026quot;SignUp\u0026quot;, \u0026quot;source\u0026quot;: \u0026quot;UserManagement\u0026quot;, \u0026quot;event_time\u0026quot;: 1568139437092 }  To learn about using Authentication in the development and production environments, visit the Environments help page.\nKey Concepts Before you configure definitions in Security Rules, understand its fundamental concepts in detail.\nConfigurations Available in Security Rules Security rules enable you to configure HTTP access and authentication for each Basic I/O and Advanced I/O function in your project, by defining values for each of those parameters in the JSON file.\nThe following values can be set for each parameter definition for a function:\n   Available Parameters Allowed Values     methods GET, POST, DELETE, PUT, PATCH   authentication optional, required    The Default Event Listener Every Catalyst project contains a default event listener that is created when the project is created. The behavior and functionality of the default event listener is completely different from that of a custom event listener. The default event listener is used to link a Catalyst component to a target function, and passes the component data to the function when it is invoked.\nThe following table describes the list of Catalyst components and the event occurrences in them that can be associated with the default event listener:\n   Component Event Description     Data Store Insert checking for new line Insert data in a table\\    Update\\ Update a table\\    Delete Delete a table   Cache Put Put data in a segment    Note: Specifying the platform does not prevent the user from accessing other platforms of the application. However, it defines the primary platform that the user will access from their device and sets default values for opening the application in the appropriate medium. SDK and API documentation You can also add and manage the end-users of your application, and obtain user details using Catalyst API and SDK. For more information and code samples on working in these programming environments, refer to these help pages:\n Authentication - Java SDK Authentication - Node.js SDK Authentication - Web SDK Authentication - API  Use Cases Catalyst Authentication features can be used in the following scenarios:\n An internal web forum, meant for the employees of an organization to discuss and gather information about the activities and tasks undertaken in various departments, uses Catalyst Authentication to manage its users. The collaborators of the web app development team can invite users to access the forum, assign roles to users, modify user information, or delete users from the console.\nThe application provides three levels of access to its various users: App admin, App Moderator, App User. The users of the user role can only submit posts in the forum, while the moderators can approve or decline the content submitted for approval, and the administrators can also permanently delete the content in the forum. These permissions for the user roles are configured in the Data Store and File Store. A travel planner web app requires its widget to be embedded in a hotel booking website, developed by one of its auxiliary companies. The hotel booking application also requires access to the travel web app\u0026rsquo;s function endpoints, to obtain specific data of their common customers. The travel web app makes use of Catalyst Authentication to quickly authorize the domain of the auxiliary company, and enable CORS and iFrame for it. The travel planner web app also implements a Google sign-in option in its client application, and manages it from the Catalyst console.  "
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/authentication/",
+	"title": "Authentication",
+	"tags": [],
+	"description": "",
+	"content": "Catalyst Authentication feature enables you to add end-users to your Catalyst serverless applications, configure their user accounts and roles, and manage user sign-in and authentication of your application directly from the Catalyst console.\nNote: Refer to the links provided in this guide for detailed help on various topics. Note: Refer to the links provided in this guide for detailed help on various topics.  -- Introduction $ hugo new site . You can perform the following actions using Authentication from the remote console:\n Add or remove the end-users of your application Enable or disable their user accounts in your application Create templates for emails to invite new users to access the application Reset their passwords Access Catalyst\u0026rsquo;s user sign-in code snippet that you can include in your application Configure Google and Zoho sign-in providers for your application Create and manage roles to define the levels of access and permissions for users Authorize external domains and enable CORS and iFrame for your application in them  The document is divided into five pages to cover the five features of Catalyst Authentication: Users, Email Templates, Sign-in Method, Roles, Authorized Domains. Each section explains the key concepts, benefits, and implementation of each feature.\nTo install it manually, you must execute this command from the Node.js function\u0026rsquo;s directory using your terminal:\nnpm install zcatalyst-integ-cliq  If we enter the number of jobs as 2, the associated function, which returns the name object, is called two times parallelly and the input is passed to it. The output of the first iteration is generated as:\n{ \u0026quot;project_details\u0026quot;: { \u0026quot;id\u0026quot;: 57127989012782, \u0026quot;project_name\u0026quot;: \u0026quot;ShipmentTracking\u0026quot; }, \u0026quot;event_bus_details\u0026quot;: { \u0026quot;name\u0026quot;: \u0026quot;Default\u0026quot;, \u0026quot;id\u0026quot;: 12083622901983 }, \u0026quot;data\u0026quot;: { \u0026quot;platform_type\u0026quot;: web, \u0026quot;user_details\u0026quot;: { \u0026quot;email_id\u0026quot;: \u0026quot;emma@zylker.com\u0026quot;, \u0026quot;role_details\u0026quot;: { \u0026quot;role_name\u0026quot;: \u0026quot;App Admin\u0026quot;, \u0026quot;role_id\u0026quot;: 2817903788190 }, \u0026quot;zaaid\u0026quot;: 1002347509, \u0026quot;created_time\u0026quot;: \u0026quot;Sep 10, 2019 11:47 PM\u0026quot;, \u0026quot;invited_time\u0026quot;: \u0026quot;Sep 10, 2019 11:47 PM\u0026quot;, \u0026quot;modified_time\u0026quot;: \u0026quot;Sep 10, 2019 11:47 PM\u0026quot;, \u0026quot;user_id\u0026quot;: 4310838901733, \u0026quot;is_confirmed\u0026quot;: true, \u0026quot;last_name\u0026quot;: \u0026quot;Burrows\u0026quot;, \u0026quot;first_name\u0026quot;: \u0026quot;Amelia\u0026quot;, \u0026quot;zuid\u0026quot;: 1002342431, \u0026quot;status\u0026quot;: \u0026quot;ACTIVE\u0026quot; }, \u0026quot;org_id\u0026quot;: 1002347509, \u0026quot;zaid\u0026quot;: 10023451351, \u0026quot;redirect_url\u0026quot;: null }, \u0026quot;current_project\u0026quot;: { \u0026quot;id\u0026quot;: 579089178290, \u0026quot;project_name\u0026quot;: \u0026quot;ShipmentTracking\u0026quot; }, \u0026quot;action\u0026quot;: \u0026quot;SignUp\u0026quot;, \u0026quot;source\u0026quot;: \u0026quot;UserManagement\u0026quot;, \u0026quot;event_time\u0026quot;: 1568139437092 }  To learn about using Authentication in the development and production environments, visit the Environments help page.\nKey Concepts Before you configure definitions in Security Rules, understand its fundamental concepts in detail.\nConfigurations Available in Security Rules Security rules enable you to configure HTTP access and authentication for each Basic I/O and Advanced I/O function in your project, by defining values for each of those parameters in the JSON file.\nThe following values can be set for each parameter definition for a function:\n   Available Parameters Allowed Values     methods GET, POST, DELETE, PUT, PATCH   authentication optional, required    The Default Event Listener Every Catalyst project contains a default event listener that is created when the project is created. The behavior and functionality of the default event listener is completely different from that of a custom event listener. The default event listener is used to link a Catalyst component to a target function, and passes the component data to the function when it is invoked.\nThe following table describes the list of Catalyst components and the event occurrences in them that can be associated with the default event listener:\n   Component Event Description     Data Store Insert checking for new line Insert data in a table\\    Update\\ Update a table\\    Delete Delete a table   Cache Put Put data in a segment    Note: Specifying the platform does not prevent the user from accessing other platforms of the application. However, it defines the primary platform that the user will access from their device and sets default values for opening the application in the appropriate medium. SDK and API documentation You can also add and manage the end-users of your application, and obtain user details using Catalyst API and SDK. For more information and code samples on working in these programming environments, refer to these help pages:\n Authentication - Java SDK Authentication - Node.js SDK Authentication - Web SDK Authentication - API  Use Cases Catalyst Authentication features can be used in the following scenarios:\n An internal web forum, meant for the employees of an organization to discuss and gather information about the activities and tasks undertaken in various departments, uses Catalyst Authentication to manage its users. The collaborators of the web app development team can invite users to access the forum, assign roles to users, modify user information, or delete users from the console.\nThe application provides three levels of access to its various users: App admin, App Moderator, App User. The users of the user role can only submit posts in the forum, while the moderators can approve or decline the content submitted for approval, and the administrators can also permanently delete the content in the forum. These permissions for the user roles are configured in the Data Store and File Store. A travel planner web app requires its widget to be embedded in a hotel booking website, developed by one of its auxiliary companies. The hotel booking application also requires access to the travel web app\u0026rsquo;s function endpoints, to obtain specific data of their common customers. The travel web app makes use of Catalyst Authentication to quickly authorize the domain of the auxiliary company, and enable CORS and iFrame for it. The travel planner web app also implements a Google sign-in option in its client application, and manages it from the Catalyst console.  "
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/data-store/table/create-new-table/",
+	"title": "Create a New Table",
+	"tags": [],
+	"description": "",
+	"content": "Create a New Table\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/data-store/table/create-new-table/",
+	"title": "Create a New Table",
+	"tags": [],
+	"description": "",
+	"content": "Create a New Table\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/data-store/table/create-new-table/",
+	"title": "Create a New Table",
+	"tags": [],
+	"description": "",
+	"content": "Create a New Table\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/data-store/table/create-new-table/",
+	"title": "Create a New Table",
+	"tags": [],
+	"description": "",
+	"content": "Create a New Table\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/data-store/table/create-new-table/",
+	"title": "Create a New Table",
+	"tags": [],
+	"description": "",
+	"content": "Create a New Table\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/data-store/table/create-new-table/",
+	"title": "Create a New Table",
+	"tags": [],
+	"description": "",
+	"content": "Create a New Table\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/data-store/table/create-new-table/",
+	"title": "Create a New Table",
+	"tags": [],
+	"description": "",
+	"content": "Create a New Table\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/data-store/table/create-new-table/",
+	"title": "Create a New Table",
+	"tags": [],
+	"description": "",
+	"content": "Create a New Table\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/docs/setting-up-a-catalyst-project/installing-catalyst-cli/",
+	"title": "Installing Catalyst CLI",
+	"tags": [],
+	"description": "",
+	"content": "Installing Catalyst CLI\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/data-store/introduction/",
+	"title": "Introduction",
+	"tags": [],
+	"description": "",
+	"content": "Introduction about a Table\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/data-store/introduction/",
+	"title": "Introduction",
+	"tags": [],
+	"description": "",
+	"content": "Introduction about a Table\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/data-store/introduction/",
+	"title": "Introduction",
+	"tags": [],
+	"description": "",
+	"content": "Introduction about a Table\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/data-store/introduction/",
+	"title": "Introduction",
+	"tags": [],
+	"description": "",
+	"content": "Introduction about a Table\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/data-store/introduction/",
+	"title": "Introduction",
+	"tags": [],
+	"description": "",
+	"content": "Introduction about a Table\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/data-store/introduction/",
+	"title": "Introduction",
+	"tags": [],
+	"description": "",
+	"content": "Introduction about a Table\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/data-store/introduction/",
+	"title": "Introduction",
+	"tags": [],
+	"description": "",
+	"content": "Introduction about a Table\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/data-store/introduction/",
+	"title": "Introduction",
+	"tags": [],
+	"description": "",
+	"content": "Introduction about a Table\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/docs/quick-start-guide/",
+	"title": "Quick Start Guide",
+	"tags": [],
+	"description": "",
+	"content": "This quick start guide will familiarize you with setting up the Catalyst work environment in under ten minutes. With this guide, you can quickly learn the basic steps involved in developing a Catalyst application.\nYou can access detailed step-by-step tutorials on building applications and microservices involving different Catalyst components from the Tutorials section.\nPrerequisites:  Node.js and NPM for your platform to install Catalyst CLI and to develop Node.js functions Java SE Development Kit to develop Java functions Any IDE tool for coding the client or the functions.  Step 1: Create a Catalyst project The first step in developing a Catalyst application is to create a Catalyst project for it.\n Log in to the Catalyst console and click Create a new Project. Enter the project’s name in the pop-up window. Read and accept Zoho Catalyst’s terms of service and click Create. Click Access Project to open it.  You can now set up and work with the Catalyst components from the console. Refer to the Component Help resources to learn about the Catalyst components in detail.\nStep 2: Install Catalyst CLI Install Catalyst CLI to develop, test, and deploy Catalyst applications from your local system. Refer to this help page for a detailed guide.\nStep 3: Log in from your CLI  Execute this command to log in to your Zoho account from the CLI: Press Y to allow Catalyst to collect CLI error reports and press Enter. Sign in using your credentials in the Zoho accounts login page. Click Accept to provide data access permissions to the CLI. Close the browser window and continue using the CLI in your terminal.  Step 4: Initialize the project from the CLI  Create a folder for the project on your local machine and navigate to it from the terminal. Execute this command from that directory to initialize a Catalyst project in it: Select the components that you need to set up for your Catalyst application and press Enter. You can initialize functions and the client. Associate the directory with a Catalyst project by selecting a project from the list and press Enter. If you initialize a function, select a function type and the stack, and press Enter.  Step 5: Develop the application You can now work with the components you initialized in your Catalyst project and use any IDE tool of your choice to code the functions or the client. Refer to the following help documentations for detailed help on working with the Catalyst SDK and API resources:\nJava SDK help documentation Node.js SDK help documentation Web SDK help documentation API help documentation\nStep 6: Test the application locally After you develop the Catalyst application or microservice, you can test it locally from the CLI before deploying it to the Catalyst web console.\nAfter you develop the Catalyst application or microservice, you can test it locally from the CLI before deploying it to the Catalyst web console.\nStep 7: Deploy the project After you test the application, you can deploy it to the remote console by executing this command from your project directory:\nYour application can now be accessed from its production URL. You can also host the application directly from the console through web client hosting.\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/add-on-service/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/authentication/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/cache/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/circuits/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/cron/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/data-store/schema-view/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/data-store/scope-and-permission/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/domain-mapping/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/event-listener/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/file-store/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/function/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/github-integrations/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/mail/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/metrics/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/push-notification/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/search/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/security-rules/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/web-client-hosting/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/zia-service/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/zqcl-console/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/add-on-service/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/authentication/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/cache/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/circuits/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/cron/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/data-store/schema-view/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/data-store/scope-and-permission/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/domain-mapping/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/event-listener/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/file-store/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/function/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/github-integrations/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/mail/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/metrics/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/push-notification/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/search/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/security-rules/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/web-client-hosting/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/zia-service/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/zqcl-console/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/add-on-service/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/authentication/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/cache/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/circuits/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/cron/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/data-store/schema-view/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/data-store/scope-and-permission/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/domain-mapping/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/event-listener/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/file-store/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/function/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/github-integrations/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/mail/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/metrics/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/push-notification/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/search/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/security-rules/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/web-client-hosting/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/zia-service/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/zqcl-console/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/add-on-service/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/authentication/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/cache/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/circuits/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/cron/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/data-store/schema-view/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/data-store/scope-and-permission/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/domain-mapping/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/event-listener/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/file-store/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/function/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/github-integrations/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/mail/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/metrics/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/push-notification/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/search/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/security-rules/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/web-client-hosting/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/zia-service/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/zqcl-console/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/add-on-service/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/authentication/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/cache/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/circuits/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/cron/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/data-store/schema-view/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/data-store/scope-and-permission/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/domain-mapping/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/event-listener/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/file-store/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/function/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/github-integrations/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/mail/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/metrics/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/push-notification/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/search/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/security-rules/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/web-client-hosting/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/zia-service/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/zqcl-console/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/add-on-service/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/authentication/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/cache/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/circuits/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/cron/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/data-store/schema-view/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/data-store/scope-and-permission/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/domain-mapping/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/event-listener/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/file-store/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/function/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/github-integrations/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/mail/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/metrics/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/push-notification/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/search/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/security-rules/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/web-client-hosting/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/zia-service/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/zqcl-console/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/add-on-service/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/authentication/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/cache/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/circuits/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/cron/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/data-store/schema-view/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/data-store/scope-and-permission/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/domain-mapping/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/event-listener/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/file-store/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/function/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/github-integrations/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/mail/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/metrics/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/push-notification/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/search/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/security-rules/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/web-client-hosting/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/zia-service/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/zqcl-console/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/add-on-service/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/authentication/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/cache/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/circuits/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/cron/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/data-store/schema-view/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/data-store/scope-and-permission/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/domain-mapping/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/event-listener/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/file-store/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/function/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/github-integrations/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/mail/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/metrics/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/push-notification/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/search/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/security-rules/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/web-client-hosting/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/zia-service/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/zqcl-console/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/data-store/data-views/tutorial-video/",
+	"title": "Tutorial Videos of Data Store",
+	"tags": [],
+	"description": "",
+	"content": "Tutorial Videos of Data Store\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/data-store/data-views/tutorial-video/",
+	"title": "Tutorial Videos of Data Store",
+	"tags": [],
+	"description": "",
+	"content": "Tutorial Videos of Data Store\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/data-store/data-views/tutorial-video/",
+	"title": "Tutorial Videos of Data Store",
+	"tags": [],
+	"description": "",
+	"content": "Tutorial Videos of Data Store\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/data-store/data-views/tutorial-video/",
+	"title": "Tutorial Videos of Data Store",
+	"tags": [],
+	"description": "",
+	"content": "Tutorial Videos of Data Store\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/data-store/data-views/tutorial-video/",
+	"title": "Tutorial Videos of Data Store",
+	"tags": [],
+	"description": "",
+	"content": "Tutorial Videos of Data Store\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/data-store/data-views/tutorial-video/",
+	"title": "Tutorial Videos of Data Store",
+	"tags": [],
+	"description": "",
+	"content": "Tutorial Videos of Data Store\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/data-store/data-views/tutorial-video/",
+	"title": "Tutorial Videos of Data Store",
+	"tags": [],
+	"description": "",
+	"content": "Tutorial Videos of Data Store\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/data-store/data-views/tutorial-video/",
+	"title": "Tutorial Videos of Data Store",
+	"tags": [],
+	"description": "",
+	"content": "Tutorial Videos of Data Store\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/faq/authentication/",
+	"title": "Authentication",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://www.catalyst.zoho.com/tutorial-apps/microservice/authentication/",
+	"title": "Authentication",
+	"tags": [],
+	"description": "",
+	"content": "Catalyst Authentication feature enables you to add end-users to your Catalyst serverless applications, configure their user accounts and roles, and manage user sign-in and authentication of your application directly from the Catalyst console.\nNote: Refer to the links provided in this guide for detailed help on various topics. Note: Refer to the links provided in this guide for detailed help on various topics.  -- Introduction $ hugo new site . You can perform the following actions using Authentication from the remote console:\n Add or remove the end-users of your application Enable or disable their user accounts in your application Create templates for emails to invite new users to access the application Reset their passwords Access Catalyst\u0026rsquo;s user sign-in code snippet that you can include in your application Configure Google and Zoho sign-in providers for your application Create and manage roles to define the levels of access and permissions for users Authorize external domains and enable CORS and iFrame for your application in them  The document is divided into five pages to cover the five features of Catalyst Authentication: Users, Email Templates, Sign-in Method, Roles, Authorized Domains. Each section explains the key concepts, benefits, and implementation of each feature.\nTo install it manually, you must execute this command from the Node.js function\u0026rsquo;s directory using your terminal:\nnpm install zcatalyst-integ-cliq  If we enter the number of jobs as 2, the associated function, which returns the name object, is called two times parallelly and the input is passed to it. The output of the first iteration is generated as:\n{ \u0026quot;project_details\u0026quot;: { \u0026quot;id\u0026quot;: 57127989012782, \u0026quot;project_name\u0026quot;: \u0026quot;ShipmentTracking\u0026quot; }, \u0026quot;event_bus_details\u0026quot;: { \u0026quot;name\u0026quot;: \u0026quot;Default\u0026quot;, \u0026quot;id\u0026quot;: 12083622901983 }, \u0026quot;data\u0026quot;: { \u0026quot;platform_type\u0026quot;: web, \u0026quot;user_details\u0026quot;: { \u0026quot;email_id\u0026quot;: \u0026quot;emma@zylker.com\u0026quot;, \u0026quot;role_details\u0026quot;: { \u0026quot;role_name\u0026quot;: \u0026quot;App Admin\u0026quot;, \u0026quot;role_id\u0026quot;: 2817903788190 }, \u0026quot;zaaid\u0026quot;: 1002347509, \u0026quot;created_time\u0026quot;: \u0026quot;Sep 10, 2019 11:47 PM\u0026quot;, \u0026quot;invited_time\u0026quot;: \u0026quot;Sep 10, 2019 11:47 PM\u0026quot;, \u0026quot;modified_time\u0026quot;: \u0026quot;Sep 10, 2019 11:47 PM\u0026quot;, \u0026quot;user_id\u0026quot;: 4310838901733, \u0026quot;is_confirmed\u0026quot;: true, \u0026quot;last_name\u0026quot;: \u0026quot;Burrows\u0026quot;, \u0026quot;first_name\u0026quot;: \u0026quot;Amelia\u0026quot;, \u0026quot;zuid\u0026quot;: 1002342431, \u0026quot;status\u0026quot;: \u0026quot;ACTIVE\u0026quot; }, \u0026quot;org_id\u0026quot;: 1002347509, \u0026quot;zaid\u0026quot;: 10023451351, \u0026quot;redirect_url\u0026quot;: null }, \u0026quot;current_project\u0026quot;: { \u0026quot;id\u0026quot;: 579089178290, \u0026quot;project_name\u0026quot;: \u0026quot;ShipmentTracking\u0026quot; }, \u0026quot;action\u0026quot;: \u0026quot;SignUp\u0026quot;, \u0026quot;source\u0026quot;: \u0026quot;UserManagement\u0026quot;, \u0026quot;event_time\u0026quot;: 1568139437092 }  To learn about using Authentication in the development and production environments, visit the Environments help page.\nKey Concepts Before you configure definitions in Security Rules, understand its fundamental concepts in detail.\nConfigurations Available in Security Rules Security rules enable you to configure HTTP access and authentication for each Basic I/O and Advanced I/O function in your project, by defining values for each of those parameters in the JSON file.\nThe following values can be set for each parameter definition for a function:\n   Available Parameters Allowed Values     methods GET, POST, DELETE, PUT, PATCH   authentication optional, required    The Default Event Listener Every Catalyst project contains a default event listener that is created when the project is created. The behavior and functionality of the default event listener is completely different from that of a custom event listener. The default event listener is used to link a Catalyst component to a target function, and passes the component data to the function when it is invoked.\nThe following table describes the list of Catalyst components and the event occurrences in them that can be associated with the default event listener:\n   Component Event Description     Data Store Insert checking for new line Insert data in a table\\    Update\\ Update a table\\    Delete Delete a table   Cache Put Put data in a segment    Note: Specifying the platform does not prevent the user from accessing other platforms of the application. However, it defines the primary platform that the user will access from their device and sets default values for opening the application in the appropriate medium. SDK and API documentation You can also add and manage the end-users of your application, and obtain user details using Catalyst API and SDK. For more information and code samples on working in these programming environments, refer to these help pages:\n Authentication - Java SDK Authentication - Node.js SDK Authentication - Web SDK Authentication - API  Use Cases Catalyst Authentication features can be used in the following scenarios:\n An internal web forum, meant for the employees of an organization to discuss and gather information about the activities and tasks undertaken in various departments, uses Catalyst Authentication to manage its users. The collaborators of the web app development team can invite users to access the forum, assign roles to users, modify user information, or delete users from the console.\nThe application provides three levels of access to its various users: App admin, App Moderator, App User. The users of the user role can only submit posts in the forum, while the moderators can approve or decline the content submitted for approval, and the administrators can also permanently delete the content in the forum. These permissions for the user roles are configured in the Data Store and File Store. A travel planner web app requires its widget to be embedded in a hotel booking website, developed by one of its auxiliary companies. The hotel booking application also requires access to the travel web app\u0026rsquo;s function endpoints, to obtain specific data of their common customers. The travel web app makes use of Catalyst Authentication to quickly authorize the domain of the auxiliary company, and enable CORS and iFrame for it. The travel planner web app also implements a Google sign-in option in its client application, and manages it from the Catalyst console.  "
+},
+{
+	"uri": "https://www.catalyst.zoho.com/tutorial-apps/simple-web-application/authentication/",
+	"title": "Authentication",
+	"tags": [],
+	"description": "",
+	"content": "Catalyst Authentication feature enables you to add end-users to your Catalyst serverless applications, configure their user accounts and roles, and manage user sign-in and authentication of your application directly from the Catalyst console.\nNote: Refer to the links provided in this guide for detailed help on various topics. Note: Refer to the links provided in this guide for detailed help on various topics.  -- Introduction $ hugo new site . You can perform the following actions using Authentication from the remote console:\n Add or remove the end-users of your application Enable or disable their user accounts in your application Create templates for emails to invite new users to access the application Reset their passwords Access Catalyst\u0026rsquo;s user sign-in code snippet that you can include in your application Configure Google and Zoho sign-in providers for your application Create and manage roles to define the levels of access and permissions for users Authorize external domains and enable CORS and iFrame for your application in them  The document is divided into five pages to cover the five features of Catalyst Authentication: Users, Email Templates, Sign-in Method, Roles, Authorized Domains. Each section explains the key concepts, benefits, and implementation of each feature.\nTo install it manually, you must execute this command from the Node.js function\u0026rsquo;s directory using your terminal:\nnpm install zcatalyst-integ-cliq  If we enter the number of jobs as 2, the associated function, which returns the name object, is called two times parallelly and the input is passed to it. The output of the first iteration is generated as:\n{ \u0026quot;project_details\u0026quot;: { \u0026quot;id\u0026quot;: 57127989012782, \u0026quot;project_name\u0026quot;: \u0026quot;ShipmentTracking\u0026quot; }, \u0026quot;event_bus_details\u0026quot;: { \u0026quot;name\u0026quot;: \u0026quot;Default\u0026quot;, \u0026quot;id\u0026quot;: 12083622901983 }, \u0026quot;data\u0026quot;: { \u0026quot;platform_type\u0026quot;: web, \u0026quot;user_details\u0026quot;: { \u0026quot;email_id\u0026quot;: \u0026quot;emma@zylker.com\u0026quot;, \u0026quot;role_details\u0026quot;: { \u0026quot;role_name\u0026quot;: \u0026quot;App Admin\u0026quot;, \u0026quot;role_id\u0026quot;: 2817903788190 }, \u0026quot;zaaid\u0026quot;: 1002347509, \u0026quot;created_time\u0026quot;: \u0026quot;Sep 10, 2019 11:47 PM\u0026quot;, \u0026quot;invited_time\u0026quot;: \u0026quot;Sep 10, 2019 11:47 PM\u0026quot;, \u0026quot;modified_time\u0026quot;: \u0026quot;Sep 10, 2019 11:47 PM\u0026quot;, \u0026quot;user_id\u0026quot;: 4310838901733, \u0026quot;is_confirmed\u0026quot;: true, \u0026quot;last_name\u0026quot;: \u0026quot;Burrows\u0026quot;, \u0026quot;first_name\u0026quot;: \u0026quot;Amelia\u0026quot;, \u0026quot;zuid\u0026quot;: 1002342431, \u0026quot;status\u0026quot;: \u0026quot;ACTIVE\u0026quot; }, \u0026quot;org_id\u0026quot;: 1002347509, \u0026quot;zaid\u0026quot;: 10023451351, \u0026quot;redirect_url\u0026quot;: null }, \u0026quot;current_project\u0026quot;: { \u0026quot;id\u0026quot;: 579089178290, \u0026quot;project_name\u0026quot;: \u0026quot;ShipmentTracking\u0026quot; }, \u0026quot;action\u0026quot;: \u0026quot;SignUp\u0026quot;, \u0026quot;source\u0026quot;: \u0026quot;UserManagement\u0026quot;, \u0026quot;event_time\u0026quot;: 1568139437092 }  To learn about using Authentication in the development and production environments, visit the Environments help page.\nKey Concepts Before you configure definitions in Security Rules, understand its fundamental concepts in detail.\nConfigurations Available in Security Rules Security rules enable you to configure HTTP access and authentication for each Basic I/O and Advanced I/O function in your project, by defining values for each of those parameters in the JSON file.\nThe following values can be set for each parameter definition for a function:\n   Available Parameters Allowed Values     methods GET, POST, DELETE, PUT, PATCH   authentication optional, required    The Default Event Listener Every Catalyst project contains a default event listener that is created when the project is created. The behavior and functionality of the default event listener is completely different from that of a custom event listener. The default event listener is used to link a Catalyst component to a target function, and passes the component data to the function when it is invoked.\nThe following table describes the list of Catalyst components and the event occurrences in them that can be associated with the default event listener:\n   Component Event Description     Data Store Insert checking for new line Insert data in a table\\    Update\\ Update a table\\    Delete Delete a table   Cache Put Put data in a segment    Note: Specifying the platform does not prevent the user from accessing other platforms of the application. However, it defines the primary platform that the user will access from their device and sets default values for opening the application in the appropriate medium. SDK and API documentation You can also add and manage the end-users of your application, and obtain user details using Catalyst API and SDK. For more information and code samples on working in these programming environments, refer to these help pages:\n Authentication - Java SDK Authentication - Node.js SDK Authentication - Web SDK Authentication - API  Use Cases Catalyst Authentication features can be used in the following scenarios:\n An internal web forum, meant for the employees of an organization to discuss and gather information about the activities and tasks undertaken in various departments, uses Catalyst Authentication to manage its users. The collaborators of the web app development team can invite users to access the forum, assign roles to users, modify user information, or delete users from the console.\nThe application provides three levels of access to its various users: App admin, App Moderator, App User. The users of the user role can only submit posts in the forum, while the moderators can approve or decline the content submitted for approval, and the administrators can also permanently delete the content in the forum. These permissions for the user roles are configured in the Data Store and File Store. A travel planner web app requires its widget to be embedded in a hotel booking website, developed by one of its auxiliary companies. The hotel booking application also requires access to the travel web app\u0026rsquo;s function endpoints, to obtain specific data of their common customers. The travel web app makes use of Catalyst Authentication to quickly authorize the domain of the auxiliary company, and enable CORS and iFrame for it. The travel planner web app also implements a Google sign-in option in its client application, and manages it from the Catalyst console.  "
+},
+{
+	"uri": "https://www.catalyst.zoho.com/whats-new/authentication/",
+	"title": "Authentication",
+	"tags": [],
+	"description": "",
+	"content": "Catalyst Authentication feature enables you to add end-users to your Catalyst serverless applications, configure their user accounts and roles, and manage user sign-in and authentication of your application directly from the Catalyst console.\nNote: Refer to the links provided in this guide for detailed help on various topics. Note: Refer to the links provided in this guide for detailed help on various topics.  -- Introduction $ hugo new site . You can perform the following actions using Authentication from the remote console:\n Add or remove the end-users of your application Enable or disable their user accounts in your application Create templates for emails to invite new users to access the application Reset their passwords Access Catalyst\u0026rsquo;s user sign-in code snippet that you can include in your application Configure Google and Zoho sign-in providers for your application Create and manage roles to define the levels of access and permissions for users Authorize external domains and enable CORS and iFrame for your application in them  The document is divided into five pages to cover the five features of Catalyst Authentication: Users, Email Templates, Sign-in Method, Roles, Authorized Domains. Each section explains the key concepts, benefits, and implementation of each feature.\nTo install it manually, you must execute this command from the Node.js function\u0026rsquo;s directory using your terminal:\nnpm install zcatalyst-integ-cliq  If we enter the number of jobs as 2, the associated function, which returns the name object, is called two times parallelly and the input is passed to it. The output of the first iteration is generated as:\n{ \u0026quot;project_details\u0026quot;: { \u0026quot;id\u0026quot;: 57127989012782, \u0026quot;project_name\u0026quot;: \u0026quot;ShipmentTracking\u0026quot; }, \u0026quot;event_bus_details\u0026quot;: { \u0026quot;name\u0026quot;: \u0026quot;Default\u0026quot;, \u0026quot;id\u0026quot;: 12083622901983 }, \u0026quot;data\u0026quot;: { \u0026quot;platform_type\u0026quot;: web, \u0026quot;user_details\u0026quot;: { \u0026quot;email_id\u0026quot;: \u0026quot;emma@zylker.com\u0026quot;, \u0026quot;role_details\u0026quot;: { \u0026quot;role_name\u0026quot;: \u0026quot;App Admin\u0026quot;, \u0026quot;role_id\u0026quot;: 2817903788190 }, \u0026quot;zaaid\u0026quot;: 1002347509, \u0026quot;created_time\u0026quot;: \u0026quot;Sep 10, 2019 11:47 PM\u0026quot;, \u0026quot;invited_time\u0026quot;: \u0026quot;Sep 10, 2019 11:47 PM\u0026quot;, \u0026quot;modified_time\u0026quot;: \u0026quot;Sep 10, 2019 11:47 PM\u0026quot;, \u0026quot;user_id\u0026quot;: 4310838901733, \u0026quot;is_confirmed\u0026quot;: true, \u0026quot;last_name\u0026quot;: \u0026quot;Burrows\u0026quot;, \u0026quot;first_name\u0026quot;: \u0026quot;Amelia\u0026quot;, \u0026quot;zuid\u0026quot;: 1002342431, \u0026quot;status\u0026quot;: \u0026quot;ACTIVE\u0026quot; }, \u0026quot;org_id\u0026quot;: 1002347509, \u0026quot;zaid\u0026quot;: 10023451351, \u0026quot;redirect_url\u0026quot;: null }, \u0026quot;current_project\u0026quot;: { \u0026quot;id\u0026quot;: 579089178290, \u0026quot;project_name\u0026quot;: \u0026quot;ShipmentTracking\u0026quot; }, \u0026quot;action\u0026quot;: \u0026quot;SignUp\u0026quot;, \u0026quot;source\u0026quot;: \u0026quot;UserManagement\u0026quot;, \u0026quot;event_time\u0026quot;: 1568139437092 }  To learn about using Authentication in the development and production environments, visit the Environments help page.\nKey Concepts Before you configure definitions in Security Rules, understand its fundamental concepts in detail.\nConfigurations Available in Security Rules Security rules enable you to configure HTTP access and authentication for each Basic I/O and Advanced I/O function in your project, by defining values for each of those parameters in the JSON file.\nThe following values can be set for each parameter definition for a function:\n   Available Parameters Allowed Values     methods GET, POST, DELETE, PUT, PATCH   authentication optional, required    The Default Event Listener Every Catalyst project contains a default event listener that is created when the project is created. The behavior and functionality of the default event listener is completely different from that of a custom event listener. The default event listener is used to link a Catalyst component to a target function, and passes the component data to the function when it is invoked.\nThe following table describes the list of Catalyst components and the event occurrences in them that can be associated with the default event listener:\n   Component Event Description     Data Store Insert checking for new line Insert data in a table\\    Update\\ Update a table\\    Delete Delete a table   Cache Put Put data in a segment    Note: Specifying the platform does not prevent the user from accessing other platforms of the application. However, it defines the primary platform that the user will access from their device and sets default values for opening the application in the appropriate medium. SDK and API documentation You can also add and manage the end-users of your application, and obtain user details using Catalyst API and SDK. For more information and code samples on working in these programming environments, refer to these help pages:\n Authentication - Java SDK Authentication - Node.js SDK Authentication - Web SDK Authentication - API  Use Cases Catalyst Authentication features can be used in the following scenarios:\n An internal web forum, meant for the employees of an organization to discuss and gather information about the activities and tasks undertaken in various departments, uses Catalyst Authentication to manage its users. The collaborators of the web app development team can invite users to access the forum, assign roles to users, modify user information, or delete users from the console.\nThe application provides three levels of access to its various users: App admin, App Moderator, App User. The users of the user role can only submit posts in the forum, while the moderators can approve or decline the content submitted for approval, and the administrators can also permanently delete the content in the forum. These permissions for the user roles are configured in the Data Store and File Store. A travel planner web app requires its widget to be embedded in a hotel booking website, developed by one of its auxiliary companies. The hotel booking application also requires access to the travel web app\u0026rsquo;s function endpoints, to obtain specific data of their common customers. The travel web app makes use of Catalyst Authentication to quickly authorize the domain of the auxiliary company, and enable CORS and iFrame for it. The travel planner web app also implements a Google sign-in option in its client application, and manages it from the Catalyst console.  "
+},
+{
+	"uri": "https://www.catalyst.zoho.com/tutorial-apps/microservice/authentication/test/",
+	"title": "Test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/tutorial-apps/simple-web-application/authentication/test/",
+	"title": "Test",
+	"tags": [],
+	"description": "",
+	"content": "Test\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/data-store/",
+	"title": "Data Store",
+	"tags": [],
+	"description": "",
+	"content": "Data Store\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/data-store/",
+	"title": "Data Store",
+	"tags": [],
+	"description": "",
+	"content": "Data Store\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/data-store/",
+	"title": "Data Store",
+	"tags": [],
+	"description": "",
+	"content": "Data Store\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/data-store/",
+	"title": "Data Store",
+	"tags": [],
+	"description": "",
+	"content": "Data Store\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/data-store/",
+	"title": "Data Store",
+	"tags": [],
+	"description": "",
+	"content": "Data Store\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/data-store/",
+	"title": "Data Store",
+	"tags": [],
+	"description": "",
+	"content": "Data Store\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/data-store/",
+	"title": "Data Store",
+	"tags": [],
+	"description": "",
+	"content": "Data Store\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/data-store/",
+	"title": "Data Store",
+	"tags": [],
+	"description": "",
+	"content": "Data Store\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/docs/introduction-to-zoho-catalyst/",
+	"title": "Introduction to Zoho Catalyst",
+	"tags": [],
+	"description": "",
+	"content": "Introduction to Zoho Catalyst\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/data-store/data-views/read-data/",
+	"title": "Read Data Store FAQ",
+	"tags": [],
+	"description": "",
+	"content": "Read Data Store FAQ\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/data-store/data-views/read-data/",
+	"title": "Read Data Store FAQ",
+	"tags": [],
+	"description": "",
+	"content": "Read Data Store FAQ\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/data-store/data-views/read-data/",
+	"title": "Read Data Store FAQ",
+	"tags": [],
+	"description": "",
+	"content": "Read Data Store FAQ\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/data-store/data-views/read-data/",
+	"title": "Read Data Store FAQ",
+	"tags": [],
+	"description": "",
+	"content": "Read Data Store FAQ\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/data-store/data-views/read-data/",
+	"title": "Read Data Store FAQ",
+	"tags": [],
+	"description": "",
+	"content": "Read Data Store FAQ\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/data-store/data-views/read-data/",
+	"title": "Read Data Store FAQ",
+	"tags": [],
+	"description": "",
+	"content": "Read Data Store FAQ\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/data-store/data-views/read-data/",
+	"title": "Read Data Store FAQ",
+	"tags": [],
+	"description": "",
+	"content": "Read Data Store FAQ\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/data-store/data-views/read-data/",
+	"title": "Read Data Store FAQ",
+	"tags": [],
+	"description": "",
+	"content": "Read Data Store FAQ\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/data-store/table/",
+	"title": "Table",
+	"tags": [],
+	"description": "",
+	"content": "Table\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/data-store/table/",
+	"title": "Table",
+	"tags": [],
+	"description": "",
+	"content": "Table\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/data-store/table/",
+	"title": "Table",
+	"tags": [],
+	"description": "",
+	"content": "Table\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/data-store/table/",
+	"title": "Table",
+	"tags": [],
+	"description": "",
+	"content": "Table\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/data-store/table/",
+	"title": "Table",
+	"tags": [],
+	"description": "",
+	"content": "Table\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/data-store/table/",
+	"title": "Table",
+	"tags": [],
+	"description": "",
+	"content": "Table\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/data-store/table/",
+	"title": "Table",
+	"tags": [],
+	"description": "",
+	"content": "Table\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/data-store/table/",
+	"title": "Table",
+	"tags": [],
+	"description": "",
+	"content": "Table\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/data-store/table/update-table-name/",
+	"title": "Update a Table Name",
+	"tags": [],
+	"description": "",
+	"content": "Update a Table Name\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/data-store/table/update-table-name/",
+	"title": "Update a Table Name",
+	"tags": [],
+	"description": "",
+	"content": "Update a Table Name\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/data-store/table/update-table-name/",
+	"title": "Update a Table Name",
+	"tags": [],
+	"description": "",
+	"content": "Update a Table Name\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/data-store/table/update-table-name/",
+	"title": "Update a Table Name",
+	"tags": [],
+	"description": "",
+	"content": "Update a Table Name\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/data-store/table/update-table-name/",
+	"title": "Update a Table Name",
+	"tags": [],
+	"description": "",
+	"content": "Update a Table Name\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/data-store/table/update-table-name/",
+	"title": "Update a Table Name",
+	"tags": [],
+	"description": "",
+	"content": "Update a Table Name\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/data-store/table/update-table-name/",
+	"title": "Update a Table Name",
+	"tags": [],
+	"description": "",
+	"content": "Update a Table Name\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/data-store/table/update-table-name/",
+	"title": "Update a Table Name",
+	"tags": [],
+	"description": "",
+	"content": "Update a Table Name\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/whats-new/all-release-notes/",
+	"title": "All Release Notes",
+	"tags": [],
+	"description": "",
+	"content": "Catalyst Authentication feature enables you to add end-users to your Catalyst serverless applications, configure their user accounts and roles, and manage user sign-in and authentication of your application directly from the Catalyst console.\nNote: Refer to the links provided in this guide for detailed help on various topics. Note: Refer to the links provided in this guide for detailed help on various topics.  -- Introduction $ hugo new site . You can perform the following actions using Authentication from the remote console:\n Add or remove the end-users of your application Enable or disable their user accounts in your application Create templates for emails to invite new users to access the application Reset their passwords Access Catalyst\u0026rsquo;s user sign-in code snippet that you can include in your application Configure Google and Zoho sign-in providers for your application Create and manage roles to define the levels of access and permissions for users Authorize external domains and enable CORS and iFrame for your application in them  The document is divided into five pages to cover the five features of Catalyst Authentication: Users, Email Templates, Sign-in Method, Roles, Authorized Domains. Each section explains the key concepts, benefits, and implementation of each feature.\nTo install it manually, you must execute this command from the Node.js function\u0026rsquo;s directory using your terminal:\nnpm install zcatalyst-integ-cliq  If we enter the number of jobs as 2, the associated function, which returns the name object, is called two times parallelly and the input is passed to it. The output of the first iteration is generated as:\n{ \u0026quot;project_details\u0026quot;: { \u0026quot;id\u0026quot;: 57127989012782, \u0026quot;project_name\u0026quot;: \u0026quot;ShipmentTracking\u0026quot; }, \u0026quot;event_bus_details\u0026quot;: { \u0026quot;name\u0026quot;: \u0026quot;Default\u0026quot;, \u0026quot;id\u0026quot;: 12083622901983 }, \u0026quot;data\u0026quot;: { \u0026quot;platform_type\u0026quot;: web, \u0026quot;user_details\u0026quot;: { \u0026quot;email_id\u0026quot;: \u0026quot;emma@zylker.com\u0026quot;, \u0026quot;role_details\u0026quot;: { \u0026quot;role_name\u0026quot;: \u0026quot;App Admin\u0026quot;, \u0026quot;role_id\u0026quot;: 2817903788190 }, \u0026quot;zaaid\u0026quot;: 1002347509, \u0026quot;created_time\u0026quot;: \u0026quot;Sep 10, 2019 11:47 PM\u0026quot;, \u0026quot;invited_time\u0026quot;: \u0026quot;Sep 10, 2019 11:47 PM\u0026quot;, \u0026quot;modified_time\u0026quot;: \u0026quot;Sep 10, 2019 11:47 PM\u0026quot;, \u0026quot;user_id\u0026quot;: 4310838901733, \u0026quot;is_confirmed\u0026quot;: true, \u0026quot;last_name\u0026quot;: \u0026quot;Burrows\u0026quot;, \u0026quot;first_name\u0026quot;: \u0026quot;Amelia\u0026quot;, \u0026quot;zuid\u0026quot;: 1002342431, \u0026quot;status\u0026quot;: \u0026quot;ACTIVE\u0026quot; }, \u0026quot;org_id\u0026quot;: 1002347509, \u0026quot;zaid\u0026quot;: 10023451351, \u0026quot;redirect_url\u0026quot;: null }, \u0026quot;current_project\u0026quot;: { \u0026quot;id\u0026quot;: 579089178290, \u0026quot;project_name\u0026quot;: \u0026quot;ShipmentTracking\u0026quot; }, \u0026quot;action\u0026quot;: \u0026quot;SignUp\u0026quot;, \u0026quot;source\u0026quot;: \u0026quot;UserManagement\u0026quot;, \u0026quot;event_time\u0026quot;: 1568139437092 }  To learn about using Authentication in the development and production environments, visit the Environments help page.\nKey Concepts Before you configure definitions in Security Rules, understand its fundamental concepts in detail.\nConfigurations Available in Security Rules Security rules enable you to configure HTTP access and authentication for each Basic I/O and Advanced I/O function in your project, by defining values for each of those parameters in the JSON file.\nThe following values can be set for each parameter definition for a function:\n   Available Parameters Allowed Values     methods GET, POST, DELETE, PUT, PATCH   authentication optional, required    The Default Event Listener Every Catalyst project contains a default event listener that is created when the project is created. The behavior and functionality of the default event listener is completely different from that of a custom event listener. The default event listener is used to link a Catalyst component to a target function, and passes the component data to the function when it is invoked.\nThe following table describes the list of Catalyst components and the event occurrences in them that can be associated with the default event listener:\n   Component Event Description     Data Store Insert checking for new line Insert data in a table\\    Update\\ Update a table\\    Delete Delete a table   Cache Put Put data in a segment    Note: Specifying the platform does not prevent the user from accessing other platforms of the application. However, it defines the primary platform that the user will access from their device and sets default values for opening the application in the appropriate medium. SDK and API documentation You can also add and manage the end-users of your application, and obtain user details using Catalyst API and SDK. For more information and code samples on working in these programming environments, refer to these help pages:\n Authentication - Java SDK Authentication - Node.js SDK Authentication - Web SDK Authentication - API  Use Cases Catalyst Authentication features can be used in the following scenarios:\n An internal web forum, meant for the employees of an organization to discuss and gather information about the activities and tasks undertaken in various departments, uses Catalyst Authentication to manage its users. The collaborators of the web app development team can invite users to access the forum, assign roles to users, modify user information, or delete users from the console.\nThe application provides three levels of access to its various users: App admin, App Moderator, App User. The users of the user role can only submit posts in the forum, while the moderators can approve or decline the content submitted for approval, and the administrators can also permanently delete the content in the forum. These permissions for the user roles are configured in the Data Store and File Store. A travel planner web app requires its widget to be embedded in a hotel booking website, developed by one of its auxiliary companies. The hotel booking application also requires access to the travel web app\u0026rsquo;s function endpoints, to obtain specific data of their common customers. The travel web app makes use of Catalyst Authentication to quickly authorize the domain of the auxiliary company, and enable CORS and iFrame for it. The travel planner web app also implements a Google sign-in option in its client application, and manages it from the Catalyst console.  "
+},
+{
+	"uri": "https://www.catalyst.zoho.com/faq/data-store/",
+	"title": "Data Store",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://www.catalyst.zoho.com/tutorial-apps/simple-web-application/data-store/",
+	"title": "Data Store",
+	"tags": [],
+	"description": "",
+	"content": "Data Store\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/file-store/",
+	"title": "File Store",
+	"tags": [],
+	"description": "",
+	"content": "File Store\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/file-store/",
+	"title": "File Store",
+	"tags": [],
+	"description": "",
+	"content": "File Store\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/file-store/",
+	"title": "File Store",
+	"tags": [],
+	"description": "",
+	"content": "File Store\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/file-store/",
+	"title": "File Store",
+	"tags": [],
+	"description": "",
+	"content": "File Store\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/file-store/",
+	"title": "File Store",
+	"tags": [],
+	"description": "",
+	"content": "File Store\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/file-store/",
+	"title": "File Store",
+	"tags": [],
+	"description": "",
+	"content": "File Store\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/file-store/",
+	"title": "File Store",
+	"tags": [],
+	"description": "",
+	"content": "File Store\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/file-store/",
+	"title": "File Store",
+	"tags": [],
+	"description": "",
+	"content": "File Store\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/data-store/schema-view/",
+	"title": "Schema View",
+	"tags": [],
+	"description": "",
+	"content": "Schema View\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/data-store/schema-view/",
+	"title": "Schema View",
+	"tags": [],
+	"description": "",
+	"content": "Schema View\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/data-store/schema-view/",
+	"title": "Schema View",
+	"tags": [],
+	"description": "",
+	"content": "Schema View\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/data-store/schema-view/",
+	"title": "Schema View",
+	"tags": [],
+	"description": "",
+	"content": "Schema View\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/data-store/schema-view/",
+	"title": "Schema View",
+	"tags": [],
+	"description": "",
+	"content": "Schema View\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/data-store/schema-view/",
+	"title": "Schema View",
+	"tags": [],
+	"description": "",
+	"content": "Schema View\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/data-store/schema-view/",
+	"title": "Schema View",
+	"tags": [],
+	"description": "",
+	"content": "Schema View\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/data-store/schema-view/",
+	"title": "Schema View",
+	"tags": [],
+	"description": "",
+	"content": "Schema View\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/data-store/table/truncate-table/",
+	"title": "Truncate a Table",
+	"tags": [],
+	"description": "",
+	"content": "Truncate a Table\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/data-store/table/truncate-table/",
+	"title": "Truncate a Table",
+	"tags": [],
+	"description": "",
+	"content": "Truncate a Table\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/data-store/table/truncate-table/",
+	"title": "Truncate a Table",
+	"tags": [],
+	"description": "",
+	"content": "Truncate a Table\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/data-store/table/truncate-table/",
+	"title": "Truncate a Table",
+	"tags": [],
+	"description": "",
+	"content": "Truncate a Table\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/data-store/table/truncate-table/",
+	"title": "Truncate a Table",
+	"tags": [],
+	"description": "",
+	"content": "Truncate a Table\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/data-store/table/truncate-table/",
+	"title": "Truncate a Table",
+	"tags": [],
+	"description": "",
+	"content": "Truncate a Table\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/data-store/table/truncate-table/",
+	"title": "Truncate a Table",
+	"tags": [],
+	"description": "",
+	"content": "Truncate a Table\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/data-store/table/truncate-table/",
+	"title": "Truncate a Table",
+	"tags": [],
+	"description": "",
+	"content": "Truncate a Table\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/docs/using-the-catalyst-console/",
+	"title": "Using the Catalyst Console",
+	"tags": [],
+	"description": "",
+	"content": "Using the Catalyst Console\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/faq/file-store/",
+	"title": "File Store",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/cache/",
+	"title": "Cache",
+	"tags": [],
+	"description": "",
+	"content": "Cache\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/cache/",
+	"title": "Cache",
+	"tags": [],
+	"description": "",
+	"content": "Cache\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/cache/",
+	"title": "Cache",
+	"tags": [],
+	"description": "",
+	"content": "Cache\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/cache/",
+	"title": "Cache",
+	"tags": [],
+	"description": "",
+	"content": "Cache\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/cache/",
+	"title": "Cache",
+	"tags": [],
+	"description": "",
+	"content": "Cache\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/cache/",
+	"title": "Cache",
+	"tags": [],
+	"description": "",
+	"content": "Cache\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/cache/",
+	"title": "Cache",
+	"tags": [],
+	"description": "",
+	"content": "Cache\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/cache/",
+	"title": "Cache",
+	"tags": [],
+	"description": "",
+	"content": "Cache\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/data-store/table/delete-table/",
+	"title": "Delete a Table",
+	"tags": [],
+	"description": "Delete a Table",
+	"content": "To delete a table from the Data Store:\n1.Click the ellipsis icon for the table that needs to be deleted, then click Delete.\n2.Click Yes, Proceed in the confirmation pop-up.\nThe table is now deleted from the Data Store.\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/data-store/table/delete-table/",
+	"title": "Delete a Table",
+	"tags": [],
+	"description": "Delete a Table",
+	"content": "To delete a table from the Data Store:\n1.Click the ellipsis icon for the table that needs to be deleted, then click Delete.\n2.Click Yes, Proceed in the confirmation pop-up.\nThe table is now deleted from the Data Store.\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/data-store/table/delete-table/",
+	"title": "Delete a Table",
+	"tags": [],
+	"description": "Delete a Table",
+	"content": "To delete a table from the Data Store:\n1.Click the ellipsis icon for the table that needs to be deleted, then click Delete.\n2.Click Yes, Proceed in the confirmation pop-up.\nThe table is now deleted from the Data Store.\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/data-store/table/delete-table/",
+	"title": "Delete a Table",
+	"tags": [],
+	"description": "Delete a Table",
+	"content": "To delete a table from the Data Store:\n1.Click the ellipsis icon for the table that needs to be deleted, then click Delete.\n2.Click Yes, Proceed in the confirmation pop-up.\nThe table is now deleted from the Data Store.\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/data-store/table/delete-table/",
+	"title": "Delete a Table",
+	"tags": [],
+	"description": "Delete a Table",
+	"content": "To delete a table from the Data Store:\n1.Click the ellipsis icon for the table that needs to be deleted, then click Delete.\n2.Click Yes, Proceed in the confirmation pop-up.\nThe table is now deleted from the Data Store.\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/data-store/table/delete-table/",
+	"title": "Delete a Table",
+	"tags": [],
+	"description": "Delete a Table",
+	"content": "To delete a table from the Data Store:\n1.Click the ellipsis icon for the table that needs to be deleted, then click Delete.\n2.Click Yes, Proceed in the confirmation pop-up.\nThe table is now deleted from the Data Store.\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/data-store/table/delete-table/",
+	"title": "Delete a Table",
+	"tags": [],
+	"description": "Delete a Table",
+	"content": "To delete a table from the Data Store:\n1.Click the ellipsis icon for the table that needs to be deleted, then click Delete.\n2.Click Yes, Proceed in the confirmation pop-up.\nThe table is now deleted from the Data Store.\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/data-store/table/delete-table/",
+	"title": "Delete a Table",
+	"tags": [],
+	"description": "Delete a Table",
+	"content": "To delete a table from the Data Store:\n1.Click the ellipsis icon for the table that needs to be deleted, then click Delete.\n2.Click Yes, Proceed in the confirmation pop-up.\nThe table is now deleted from the Data Store.\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/data-store/scope-and-permission/",
+	"title": "Scopes and Permissions",
+	"tags": [],
+	"description": "",
+	"content": "Scopes and Permissions\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/data-store/scope-and-permission/",
+	"title": "Scopes and Permissions",
+	"tags": [],
+	"description": "",
+	"content": "Scopes and Permissions\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/data-store/scope-and-permission/",
+	"title": "Scopes and Permissions",
+	"tags": [],
+	"description": "",
+	"content": "Scopes and Permissions\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/data-store/scope-and-permission/",
+	"title": "Scopes and Permissions",
+	"tags": [],
+	"description": "",
+	"content": "Scopes and Permissions\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/data-store/scope-and-permission/",
+	"title": "Scopes and Permissions",
+	"tags": [],
+	"description": "",
+	"content": "Scopes and Permissions\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/data-store/scope-and-permission/",
+	"title": "Scopes and Permissions",
+	"tags": [],
+	"description": "",
+	"content": "Scopes and Permissions\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/data-store/scope-and-permission/",
+	"title": "Scopes and Permissions",
+	"tags": [],
+	"description": "",
+	"content": "Scopes and Permissions\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/data-store/scope-and-permission/",
+	"title": "Scopes and Permissions",
+	"tags": [],
+	"description": "",
+	"content": "Scopes and Permissions\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/docs/setting-up-a-catalyst-project/",
+	"title": "Setting up a Catalyst Project",
+	"tags": [],
+	"description": "",
+	"content": "Setting up a Catalyst Project\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/faq/cache/",
+	"title": "Cache",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/cron/",
+	"title": "Cron",
+	"tags": [],
+	"description": "",
+	"content": "Cron\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/cron/",
+	"title": "Cron",
+	"tags": [],
+	"description": "",
+	"content": "Cron\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/cron/",
+	"title": "Cron",
+	"tags": [],
+	"description": "",
+	"content": "Cron\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/cron/",
+	"title": "Cron",
+	"tags": [],
+	"description": "",
+	"content": "Cron\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/cron/",
+	"title": "Cron",
+	"tags": [],
+	"description": "",
+	"content": "Cron\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/cron/",
+	"title": "Cron",
+	"tags": [],
+	"description": "",
+	"content": "Cron\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/cron/",
+	"title": "Cron",
+	"tags": [],
+	"description": "",
+	"content": "Cron\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/cron/",
+	"title": "Cron",
+	"tags": [],
+	"description": "",
+	"content": "Cron\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/data-store/data-views/",
+	"title": "Data Views",
+	"tags": [],
+	"description": "",
+	"content": "Data Views\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/data-store/data-views/",
+	"title": "Data Views",
+	"tags": [],
+	"description": "",
+	"content": "Data Views\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/data-store/data-views/",
+	"title": "Data Views",
+	"tags": [],
+	"description": "",
+	"content": "Data Views\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/data-store/data-views/",
+	"title": "Data Views",
+	"tags": [],
+	"description": "",
+	"content": "Data Views\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/data-store/data-views/",
+	"title": "Data Views",
+	"tags": [],
+	"description": "",
+	"content": "Data Views\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/data-store/data-views/",
+	"title": "Data Views",
+	"tags": [],
+	"description": "",
+	"content": "Data Views\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/data-store/data-views/",
+	"title": "Data Views",
+	"tags": [],
+	"description": "",
+	"content": "Data Views\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/data-store/data-views/",
+	"title": "Data Views",
+	"tags": [],
+	"description": "",
+	"content": "Data Views\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/faq/cron/",
+	"title": "Cron",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/zqcl-console/",
+	"title": "ZCQL Console",
+	"tags": [],
+	"description": "",
+	"content": "ZCQL Console\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/zqcl-console/",
+	"title": "ZCQL Console",
+	"tags": [],
+	"description": "",
+	"content": "ZCQL Console\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/zqcl-console/",
+	"title": "ZCQL Console",
+	"tags": [],
+	"description": "",
+	"content": "ZCQL Console\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/zqcl-console/",
+	"title": "ZCQL Console",
+	"tags": [],
+	"description": "",
+	"content": "ZCQL Console\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/zqcl-console/",
+	"title": "ZCQL Console",
+	"tags": [],
+	"description": "",
+	"content": "ZCQL Console\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/zqcl-console/",
+	"title": "ZCQL Console",
+	"tags": [],
+	"description": "",
+	"content": "ZCQL Console\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/zqcl-console/",
+	"title": "ZCQL Console",
+	"tags": [],
+	"description": "",
+	"content": "ZCQL Console\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/zqcl-console/",
+	"title": "ZCQL Console",
+	"tags": [],
+	"description": "",
+	"content": "ZCQL Console\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/faq/zcql-console/",
+	"title": "Zcql Console",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/function/",
+	"title": "Function",
+	"tags": [],
+	"description": "",
+	"content": "Function\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/function/",
+	"title": "Function",
+	"tags": [],
+	"description": "",
+	"content": "Function\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/function/",
+	"title": "Function",
+	"tags": [],
+	"description": "",
+	"content": "Function\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/function/",
+	"title": "Function",
+	"tags": [],
+	"description": "",
+	"content": "Function\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/function/",
+	"title": "Function",
+	"tags": [],
+	"description": "",
+	"content": "Function\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/function/",
+	"title": "Function",
+	"tags": [],
+	"description": "",
+	"content": "Function\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/function/",
+	"title": "Function",
+	"tags": [],
+	"description": "",
+	"content": "Function\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/function/",
+	"title": "Function",
+	"tags": [],
+	"description": "",
+	"content": "Function\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/circuits/",
+	"title": "Circuits",
+	"tags": [],
+	"description": "",
+	"content": "Circuits\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/circuits/",
+	"title": "Circuits",
+	"tags": [],
+	"description": "",
+	"content": "Circuits\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/circuits/",
+	"title": "Circuits",
+	"tags": [],
+	"description": "",
+	"content": "Circuits\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/circuits/",
+	"title": "Circuits",
+	"tags": [],
+	"description": "",
+	"content": "Circuits\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/circuits/",
+	"title": "Circuits",
+	"tags": [],
+	"description": "",
+	"content": "Circuits\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/circuits/",
+	"title": "Circuits",
+	"tags": [],
+	"description": "",
+	"content": "Circuits\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/circuits/",
+	"title": "Circuits",
+	"tags": [],
+	"description": "",
+	"content": "Circuits\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/circuits/",
+	"title": "Circuits",
+	"tags": [],
+	"description": "",
+	"content": "Circuits\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/security-rules/",
+	"title": "Security Rules",
+	"tags": [],
+	"description": "",
+	"content": "Security Rules\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/security-rules/",
+	"title": "Security Rules",
+	"tags": [],
+	"description": "",
+	"content": "Security Rules\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/security-rules/",
+	"title": "Security Rules",
+	"tags": [],
+	"description": "",
+	"content": "Security Rules\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/security-rules/",
+	"title": "Security Rules",
+	"tags": [],
+	"description": "",
+	"content": "Security Rules\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/security-rules/",
+	"title": "Security Rules",
+	"tags": [],
+	"description": "",
+	"content": "Security Rules\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/security-rules/",
+	"title": "Security Rules",
+	"tags": [],
+	"description": "",
+	"content": "Security Rules\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/security-rules/",
+	"title": "Security Rules",
+	"tags": [],
+	"description": "",
+	"content": "Security Rules\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/security-rules/",
+	"title": "Security Rules",
+	"tags": [],
+	"description": "",
+	"content": "Security Rules\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/search/",
+	"title": "Search",
+	"tags": [],
+	"description": "",
+	"content": "Search\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/search/",
+	"title": "Search",
+	"tags": [],
+	"description": "",
+	"content": "Search\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/search/",
+	"title": "Search",
+	"tags": [],
+	"description": "",
+	"content": "Search\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/search/",
+	"title": "Search",
+	"tags": [],
+	"description": "",
+	"content": "Search\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/search/",
+	"title": "Search",
+	"tags": [],
+	"description": "",
+	"content": "Search\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/search/",
+	"title": "Search",
+	"tags": [],
+	"description": "",
+	"content": "Search\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/search/",
+	"title": "Search",
+	"tags": [],
+	"description": "",
+	"content": "Search\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/search/",
+	"title": "Search",
+	"tags": [],
+	"description": "",
+	"content": "Search\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/mail/",
+	"title": "Mail",
+	"tags": [],
+	"description": "",
+	"content": "Mail\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/mail/",
+	"title": "Mail",
+	"tags": [],
+	"description": "",
+	"content": "Mail\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/mail/",
+	"title": "Mail",
+	"tags": [],
+	"description": "",
+	"content": "Mail\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/mail/",
+	"title": "Mail",
+	"tags": [],
+	"description": "",
+	"content": "Mail\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/mail/",
+	"title": "Mail",
+	"tags": [],
+	"description": "",
+	"content": "Mail\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/mail/",
+	"title": "Mail",
+	"tags": [],
+	"description": "",
+	"content": "Mail\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/mail/",
+	"title": "Mail",
+	"tags": [],
+	"description": "",
+	"content": "Mail\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/mail/",
+	"title": "Mail",
+	"tags": [],
+	"description": "",
+	"content": "Mail\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/push-notification/",
+	"title": "Push Notifications",
+	"tags": [],
+	"description": "",
+	"content": "Push Notification\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/push-notification/",
+	"title": "Push Notifications",
+	"tags": [],
+	"description": "",
+	"content": "Push Notification\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/push-notification/",
+	"title": "Push Notifications",
+	"tags": [],
+	"description": "",
+	"content": "Push Notification\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/push-notification/",
+	"title": "Push Notifications",
+	"tags": [],
+	"description": "",
+	"content": "Push Notification\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/push-notification/",
+	"title": "Push Notifications",
+	"tags": [],
+	"description": "",
+	"content": "Push Notification\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/push-notification/",
+	"title": "Push Notifications",
+	"tags": [],
+	"description": "",
+	"content": "Push Notification\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/push-notification/",
+	"title": "Push Notifications",
+	"tags": [],
+	"description": "",
+	"content": "Push Notification\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/push-notification/",
+	"title": "Push Notifications",
+	"tags": [],
+	"description": "",
+	"content": "Push Notification\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/event-listener/",
+	"title": "Event Listener",
+	"tags": [],
+	"description": "",
+	"content": "Event Listener\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/event-listener/",
+	"title": "Event Listener",
+	"tags": [],
+	"description": "",
+	"content": "Event Listener\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/event-listener/",
+	"title": "Event Listener",
+	"tags": [],
+	"description": "",
+	"content": "Event Listener\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/event-listener/",
+	"title": "Event Listener",
+	"tags": [],
+	"description": "",
+	"content": "Event Listener\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/event-listener/",
+	"title": "Event Listener",
+	"tags": [],
+	"description": "",
+	"content": "Event Listener\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/event-listener/",
+	"title": "Event Listener",
+	"tags": [],
+	"description": "",
+	"content": "Event Listener\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/event-listener/",
+	"title": "Event Listener",
+	"tags": [],
+	"description": "",
+	"content": "Event Listener\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/event-listener/",
+	"title": "Event Listener",
+	"tags": [],
+	"description": "",
+	"content": "Event Listener\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/github-integrations/",
+	"title": "Github Integrations",
+	"tags": [],
+	"description": "",
+	"content": "Github Integrations\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/github-integrations/",
+	"title": "Github Integrations",
+	"tags": [],
+	"description": "",
+	"content": "Github Integrations\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/github-integrations/",
+	"title": "Github Integrations",
+	"tags": [],
+	"description": "",
+	"content": "Github Integrations\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/github-integrations/",
+	"title": "Github Integrations",
+	"tags": [],
+	"description": "",
+	"content": "Github Integrations\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/github-integrations/",
+	"title": "Github Integrations",
+	"tags": [],
+	"description": "",
+	"content": "Github Integrations\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/github-integrations/",
+	"title": "Github Integrations",
+	"tags": [],
+	"description": "",
+	"content": "Github Integrations\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/github-integrations/",
+	"title": "Github Integrations",
+	"tags": [],
+	"description": "",
+	"content": "Github Integrations\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/github-integrations/",
+	"title": "Github Integrations",
+	"tags": [],
+	"description": "",
+	"content": "Github Integrations\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/zia-service/",
+	"title": "Zia Service",
+	"tags": [],
+	"description": "",
+	"content": "Zia Service\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/zia-service/",
+	"title": "Zia Service",
+	"tags": [],
+	"description": "",
+	"content": "Zia Service\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/zia-service/",
+	"title": "Zia Service",
+	"tags": [],
+	"description": "",
+	"content": "Zia Service\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/zia-service/",
+	"title": "Zia Service",
+	"tags": [],
+	"description": "",
+	"content": "Zia Service\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/zia-service/",
+	"title": "Zia Service",
+	"tags": [],
+	"description": "",
+	"content": "Zia Service\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/zia-service/",
+	"title": "Zia Service",
+	"tags": [],
+	"description": "",
+	"content": "Zia Service\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/zia-service/",
+	"title": "Zia Service",
+	"tags": [],
+	"description": "",
+	"content": "Zia Service\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/zia-service/",
+	"title": "Zia Service",
+	"tags": [],
+	"description": "",
+	"content": "Zia Service\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/add-on-service/",
+	"title": "Add-on Service",
+	"tags": [],
+	"description": "",
+	"content": "Add-on Service\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/add-on-service/",
+	"title": "Add-on Service",
+	"tags": [],
+	"description": "",
+	"content": "Add-on Service\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/add-on-service/",
+	"title": "Add-on Service",
+	"tags": [],
+	"description": "",
+	"content": "Add-on Service\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/add-on-service/",
+	"title": "Add-on Service",
+	"tags": [],
+	"description": "",
+	"content": "Add-on Service\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/add-on-service/",
+	"title": "Add-on Service",
+	"tags": [],
+	"description": "",
+	"content": "Add-on Service\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/add-on-service/",
+	"title": "Add-on Service",
+	"tags": [],
+	"description": "",
+	"content": "Add-on Service\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/add-on-service/",
+	"title": "Add-on Service",
+	"tags": [],
+	"description": "",
+	"content": "Add-on Service\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/add-on-service/",
+	"title": "Add-on Service",
+	"tags": [],
+	"description": "",
+	"content": "Add-on Service\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/web-client-hosting/",
+	"title": "Web Client Hosting",
+	"tags": [],
+	"description": "",
+	"content": "Web Client Hosting\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/web-client-hosting/",
+	"title": "Web Client Hosting",
+	"tags": [],
+	"description": "",
+	"content": "Web Client Hosting\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/web-client-hosting/",
+	"title": "Web Client Hosting",
+	"tags": [],
+	"description": "",
+	"content": "Web Client Hosting\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/web-client-hosting/",
+	"title": "Web Client Hosting",
+	"tags": [],
+	"description": "",
+	"content": "Web Client Hosting\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/web-client-hosting/",
+	"title": "Web Client Hosting",
+	"tags": [],
+	"description": "",
+	"content": "Web Client Hosting\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/web-client-hosting/",
+	"title": "Web Client Hosting",
+	"tags": [],
+	"description": "",
+	"content": "Web Client Hosting\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/web-client-hosting/",
+	"title": "Web Client Hosting",
+	"tags": [],
+	"description": "",
+	"content": "Web Client Hosting\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/web-client-hosting/",
+	"title": "Web Client Hosting",
+	"tags": [],
+	"description": "",
+	"content": "Web Client Hosting\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/domain-mapping/",
+	"title": "Domain Mapping",
+	"tags": [],
+	"description": "",
+	"content": "Domain Mapping\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/domain-mapping/",
+	"title": "Domain Mapping",
+	"tags": [],
+	"description": "",
+	"content": "Domain Mapping\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/domain-mapping/",
+	"title": "Domain Mapping",
+	"tags": [],
+	"description": "",
+	"content": "Domain Mapping\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/domain-mapping/",
+	"title": "Domain Mapping",
+	"tags": [],
+	"description": "",
+	"content": "Domain Mapping\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/domain-mapping/",
+	"title": "Domain Mapping",
+	"tags": [],
+	"description": "",
+	"content": "Domain Mapping\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/domain-mapping/",
+	"title": "Domain Mapping",
+	"tags": [],
+	"description": "",
+	"content": "Domain Mapping\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/domain-mapping/",
+	"title": "Domain Mapping",
+	"tags": [],
+	"description": "",
+	"content": "Domain Mapping\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/domain-mapping/",
+	"title": "Domain Mapping",
+	"tags": [],
+	"description": "",
+	"content": "Domain Mapping\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/metrics/",
+	"title": "Metrics",
+	"tags": [],
+	"description": "",
+	"content": "Metrics\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/metrics/",
+	"title": "Metrics",
+	"tags": [],
+	"description": "",
+	"content": "Metrics\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/metrics/",
+	"title": "Metrics",
+	"tags": [],
+	"description": "",
+	"content": "Metrics\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/metrics/",
+	"title": "Metrics",
+	"tags": [],
+	"description": "",
+	"content": "Metrics\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/metrics/",
+	"title": "Metrics",
+	"tags": [],
+	"description": "",
+	"content": "Metrics\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/metrics/",
+	"title": "Metrics",
+	"tags": [],
+	"description": "",
+	"content": "Metrics\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/metrics/",
+	"title": "Metrics",
+	"tags": [],
+	"description": "",
+	"content": "Metrics\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/metrics/",
+	"title": "Metrics",
+	"tags": [],
+	"description": "",
+	"content": "Metrics\n"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://www.catalyst.zoho.com/android/",
+	"title": "main",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://www.catalyst.zoho.com/cli/",
+	"title": "main",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://www.catalyst.zoho.com/docs/",
+	"title": "main",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://www.catalyst.zoho.com/help/",
+	"title": "main",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://www.catalyst.zoho.com/ios/",
+	"title": "main",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://www.catalyst.zoho.com/java/",
+	"title": "main",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://www.catalyst.zoho.com/javascript/",
+	"title": "main",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://www.catalyst.zoho.com/nodejs/",
+	"title": "main",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://www.catalyst.zoho.com/rest-api/",
+	"title": "main",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://www.catalyst.zoho.com/404.html",
+	"title": "Whoops! Page not found",
+	"tags": [],
+	"description": "This is a 404 page",
+	"content": "That page can\u0026rsquo;t be found.\nOur latest content is on the homepage.\nPhoto by Aron Visuals on Unsplash"
+},
+{
+	"uri": "https://www.catalyst.zoho.com/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://www.catalyst.zoho.com/faq/",
+	"title": "main",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://www.catalyst.zoho.com/tutorial-apps/",
+	"title": "main",
+	"tags": [],
+	"description": "tutorial",
+	"content": ""
+},
+{
+	"uri": "https://www.catalyst.zoho.com/tutorial-apps/microservice/",
+	"title": "main",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://www.catalyst.zoho.com/tutorial-apps/simple-web-application/",
+	"title": "main",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://www.catalyst.zoho.com/tutorial/",
+	"title": "main",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://www.catalyst.zoho.com/whats-new/",
+	"title": "main",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://www.catalyst.zoho.com/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]

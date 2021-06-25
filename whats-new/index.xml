@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>main on catalyst</title>
+    <link>https://www.catalyst.zoho.com/whats-new/</link>
+    <description>Recent content in main on catalyst</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://www.catalyst.zoho.com/whats-new/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Authentication</title>
+      <link>https://www.catalyst.zoho.com/whats-new/authentication/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/whats-new/authentication/</guid>
+      <description>Catalyst Authentication feature enables you to add end-users to your Catalyst serverless applications, configure their user accounts and roles, and manage user sign-in and authentication of your application directly from the Catalyst console.
+Note: Refer to the links provided in this guide for detailed help on various topics. Note: Refer to the links provided in this guide for detailed help on various topics.  -- Introduction $ hugo new site .</description>
+    </item>
+    
+    <item>
+      <title>All Release Notes</title>
+      <link>https://www.catalyst.zoho.com/whats-new/all-release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.catalyst.zoho.com/whats-new/all-release-notes/</guid>
+      <description>Catalyst Authentication feature enables you to add end-users to your Catalyst serverless applications, configure their user accounts and roles, and manage user sign-in and authentication of your application directly from the Catalyst console.
+Note: Refer to the links provided in this guide for detailed help on various topics. Note: Refer to the links provided in this guide for detailed help on various topics.  -- Introduction $ hugo new site .</description>
+    </item>
+    
+  </channel>
+</rss>
